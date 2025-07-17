@@ -1,0 +1,49 @@
+{{ define "main" }}
+<section class="content-section">
+    <div class="card">
+        <article class="single-article">
+            {{ if eq .Type "news" }}
+            <!-- ニュース記事用のヘッダー -->
+            <div class="article-header">
+                <div class="article-meta">
+                    <time class="article-date">
+                        <i class="far fa-calendar"></i>
+                        {{ .Date.Format "2006年1月2日" }}
+                    </time>
+                    {{ if .Params.categories }}
+                    <div class="article-categories">
+                        {{ range .Params.categories }}
+                        <span class="category-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <h1 class="article-title">{{ .Title }}</h1>
+                {{ if .Params.thumbnail }}
+                <div class="article-thumbnail">
+                    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+            </div>
+            {{ else }}
+            <!-- 通常のページ用のヘッダー -->
+            <h1>{{ .Title }}</h1>
+            {{ end }}
+            
+            <div class="article-content">
+                {{ .Content }}
+            </div>
+            
+            {{ if eq .Type "news" }}
+            <!-- ニュース記事用のフッター -->
+            <div class="article-footer">
+                <a href="/news/" class="back-to-list">
+                    <i class="fas fa-arrow-left"></i>
+                    ニュース一覧に戻る
+                </a>
+            </div>
+            {{ end }}
+        </article>
+    </div>
+</section>
+{{ end }}

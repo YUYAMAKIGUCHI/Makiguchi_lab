@@ -1,0 +1,180 @@
+{{ define "main" }}
+<section class="content-section">
+    <div class="card">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        
+        {{ if eq .Type "news" }}
+        <!-- ニュース一覧専用の拡張機能 -->
+        <div class="news-hero-search">
+            <div class="search-backdrop"></div>
+            <div class="search-container">
+                <h2 class="search-title">
+                    <i class="fas fa-newspaper"></i>
+                    ニュース・お知らせを検索
+                </h2>
+                <div class="search-box">
+                    <div class="search-input-wrapper">
+                        <i class="fas fa-search search-icon-left"></i>
+                        <input type="text" id="newsSearch" placeholder="キーワードを入力..." class="search-input">
+                        <button class="search-clear" id="searchClear" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="search-suggestions">
+                        <span class="suggestion-label">よく検索されるキーワード:</span>
+                        <button class="suggestion-tag" data-keyword="研究成果">研究成果</button>
+                        <button class="suggestion-tag" data-keyword="論文">論文</button>
+                        <button class="suggestion-tag" data-keyword="受賞">受賞</button>
+                        <button class="suggestion-tag" data-keyword="イベント">イベント</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="news-controls">
+            <!-- フィルター -->
+            <div class="news-filters">
+                <!-- 年別フィルター -->
+                <div class="filter-group">
+                    <i class="fas fa-calendar filter-icon"></i>
+                    <select id="yearFilter" class="filter-select">
+                        <option value="">すべての年</option>
+                        {{ $years := slice }}
+                        {{ range .Pages }}
+                            {{ $year := .Date.Format "2006" }}
+                            {{ if not (in $years $year) }}
+                                {{ $years = $years | append $year }}
+                            {{ end }}
+                        {{ end }}
+                        {{ range sort $years "value" "desc" }}
+                            <option value="{{ . }}">{{ . }}年</option>
+                        {{ end }}
+                    </select>
+                </div>
+                
+                <!-- カテゴリーフィルター -->
+                {{ $categories := slice }}
+                {{ range .Pages }}
+                    {{ range .Params.categories }}
+                        {{ if not (in $categories .) }}
+                            {{ $categories = $categories | append . }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                {{ if $categories }}
+                <div class="filter-group">
+                    <i class="fas fa-tag filter-icon"></i>
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="">すべてのカテゴリー</option>
+                        {{ range sort $categories }}
+                            <option value="{{ . }}">{{ . }}</option>
+                        {{ end }}
+                    </select>
+                </div>
+                {{ end }}
+                
+                <!-- 結果カウント -->
+                <div class="results-count">
+                    <span id="resultsCount">{{ len .Pages }}</span>件の記事
+                </div>
+                
+                <!-- ビュー切り替えボタンを削除（グリッド表示固定） -->
+            </div>
+        </div>
+        
+        <!-- ニュース一覧コンテナ（デフォルトでグリッド表示） -->
+        <div id="newsContainer" class="news-grid">
+            {{ range .Pages }}
+            <div class="list-item news-entry" 
+                 data-year="{{ .Date.Format "2006" }}"
+                 data-categories="{{ if .Params.categories }}{{ delimit .Params.categories " " }}{{ end }}"
+                 data-title="{{ .Title | lower }}"
+                 data-content="{{ .Summary | plainify | lower }}">
+                <a href="{{ .Permalink }}" class="news-tile">
+                    <div class="news-tile-image">
+                        {{ if .Params.thumbnail }}
+                        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                        {{ else }}
+                        <img src="/img/hero-salmon.jpg" alt="{{ .Title }}">
+                        {{ end }}
+                        <div class="news-tile-overlay">
+                            <span class="read-more">詳しく見る <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="news-tile-content">
+                        <div class="news-tile-date">
+                            <i class="far fa-calendar"></i>
+                            {{ .Date.Format "2006.01.02" }}
+                        </div>
+                        <h3 class="news-tile-title">{{ .Title }}</h3>
+                        {{ if .Params.categories }}
+                        <div class="news-tile-categories">
+                            {{ range .Params.categories }}
+                            <span class="category-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        
+        <!-- ページネーション -->
+        <div class="news-pagination" id="pagination" style="display: none;">
+            <button class="pagination-button" id="prevPage">
+                <i class="fas fa-chevron-left"></i>
+                前へ
+            </button>
+            <span class="pagination-info">
+                <span id="currentPage">1</span> / <span id="totalPages">1</span>
+            </span>
+            <button class="pagination-button" id="nextPage">
+                次へ
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- 検索結果なしメッセージ -->
+        <div id="noResults" class="no-results" style="display: none;">
+            <i class="fas fa-search"></i>
+            <p>該当する記事が見つかりませんでした。</p>
+        </div>
+        
+        {{ else }}
+        <!-- 通常のリスト表示（ニュース以外） -->
+        {{ range .Pages }}
+        <div class="list-item">
+            {{ if .Params.thumbnail }}
+            <div class="news-item-with-thumbnail">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="news-thumbnail">
+                <div class="news-content">
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <div class="news-meta">
+                        <time>{{ .Date.Format "2006年1月2日" }}</time>
+                        {{ if .Params.categories }}
+                        <span class="categories">
+                            {{ range .Params.categories }}
+                            <span class="category">{{ . }}</span>
+                            {{ end }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    <p>{{ .Summary }}</p>
+                </div>
+            </div>
+            {{ else }}
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary }}</p>
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+{{ if eq .Type "news" }}
+<script src="/js/news-list.js"></script>
+{{ end }}
+{{ end }}

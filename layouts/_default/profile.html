@@ -1,0 +1,94 @@
+{{ define "main" }}
+<section class="content-section">
+    <div class="profile-container">
+        <!-- シンプルなプロフィールヘッダー -->
+        <div class="profile-header">
+            <div class="profile-photo-wrapper">
+                <img src="{{ .Params.profilePhoto }}" alt="{{ .Params.name }}" class="profile-photo">
+            </div>
+            <div class="profile-info">
+                <h1 class="profile-title">{{ .Params.name }} <span class="name-en">{{ .Params.nameEn }}</span></h1>
+                <p class="profile-subtitle">{{ .Params.position }}</p>
+                <p class="profile-email">
+                    <a href="#" id="email-link" data-user="{{ index (split .Params.email "@") 0 }}" data-domain="{{ index (split .Params.email "@") 1 }}">
+                        <span id="email-display">[メールアドレスを表示]</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- プロフィール本文 -->
+        <div class="profile-content-simple">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<!-- スパム対策のJavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const emailLink = document.getElementById('email-link');
+    const emailDisplay = document.getElementById('email-display');
+    if (emailLink && emailDisplay) {
+        const user = emailLink.getAttribute('data-user');
+        const domain = emailLink.getAttribute('data-domain');
+        const email = user + '@' + domain;
+        
+        emailLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            emailDisplay.textContent = email;
+            emailLink.href = 'mailto:' + email;
+            // 次回のクリックで通常のmailtoリンクとして動作
+            emailLink.removeEventListener('click', arguments.callee);
+        });
+    }
+});
+</script>
+
+<!-- スタイル調整 -->
+<style>
+/* Markdownコンテンツのスタイル調整 */
+.profile-content-simple h2 {
+    color: #2c5f8d;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.profile-content-simple ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-content-simple li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.profile-content-simple li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #2c5f8d;
+    font-weight: bold;
+}
+
+.profile-content-simple p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* メールリンクのスタイル */
+.profile-email a {
+    color: #2c5f8d;
+    text-decoration: none;
+}
+
+.profile-email a:hover {
+    text-decoration: underline;
+}
+</style>
+
+{{ end }}

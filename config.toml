@@ -1,0 +1,105 @@
+baseURL = 'https://makiguchi-lab.netlify.app/'
+languageCode = 'ja'
+title = '魚群行動計測学研究室 | Makiguchi Lab'
+# theme = 'academic' # テーマを使用しない（カスタムレイアウトを使用）
+
+# SEO設定
+enableRobotsTXT = true
+canonifyURLs = true
+
+[languages]
+  [languages.ja]
+    languageName = '日本語'
+    weight = 1
+    [languages.ja.params]
+      description = '日本大学生物資源科学部海洋生物学科 牧口祐也准教授の研究室。サケ科魚類の行動生態学、バイオロギング研究。'
+  
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    [languages.en.params]
+      description = 'Makiguchi Lab at Nihon University. Behavioral ecology and bio-logging research on salmonid fishes.'
+
+[params]
+  # カラーテーマ
+  color_theme = 'earth'
+  
+  # フォント
+  font = 'native'
+  
+  # SEO
+  sharing_image = 'img/salmon-hero.jpg'
+  twitter = 'makiguchi_lab'
+  
+  # 連絡先
+  email = 'makiguchi.yuya@nihon-u.ac.jp'
+  phone = ''
+  address = '神奈川県藤沢市亀井野1866 日本大学生物資源科学部'
+  
+  # 地図
+  map = 2
+  map_api_key = ''
+  latitude = '35.3747'
+  longitude = '139.4574'
+  
+  # 日付フォーマット
+  date_format = '2006年1月2日'
+  time_format = '15:04'
+  
+  # 読了時間表示
+  reading_time = true
+  
+  # コメント機能（無効）
+  comment_count = false
+  
+[menu]
+  [[menu.main]]
+    name = 'ホーム'
+    url = '/'
+    weight = 10
+  
+  [[menu.main]]
+    name = 'プロフィール'
+    url = '/profile/'
+    weight = 20
+  
+  [[menu.main]]
+    name = '研究'
+    url = '/research/'
+    weight = 30
+  
+  [[menu.main]]
+    name = '論文'
+    url = '/publications/'
+    weight = 40
+  
+  [[menu.main]]
+    name = '学会発表'
+    url = '/presentations/'
+    weight = 45
+  
+  [[menu.main]]
+    name = '教育'
+    url = '/teaching/'
+    weight = 50
+  
+  [[menu.main]]
+    name = 'メディア'
+    url = '/media/'
+    weight = 55
+  
+  [[menu.main]]
+    name = '📰 アーカイブ'
+    url = '/news/'
+    weight = 58
+  
+  [[menu.main]]
+    name = 'リンク'
+    url = '/links/'
+    weight = 60
+
+# Markdown内のHTMLを有効化
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

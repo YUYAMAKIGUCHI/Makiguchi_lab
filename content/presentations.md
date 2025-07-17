@@ -1,0 +1,806 @@
+---
+title: "学会発表"
+date: 2025-01-03
+draft: false
+---
+
+## 国際学会
+
+### 2014年
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy in semelparous salmonid species, chum salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kojima, T.</div>
+    <div class="presentation-conference">The 5th Bio-logging Science Symposium, 22-27 Sep 2014 Strasbourg, France</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy associated with paired female size in semelparous salmonid species</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kitagawa, T., Kojima, T.</div>
+    <div class="presentation-conference">Animal Behavior Society 2014 Conference, 9-13 August 2014, Princeton, USA</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy in relation to paired female size in semelparous salmonid species</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kawabata, Y., Kitagawa, T., Kojima, T.</div>
+    <div class="presentation-conference">The 2nd Design Symposium on Conservation of Ecosystem(SEASTAR2000), 18-19 March 2014, Kyoto, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2011年
+
+<div class="presentation-item">
+    <div class="presentation-title">Physiological biotelemetry study on migratory behavior in salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong></div>
+    <div class="presentation-conference">The Akiyama Life Science Foundation 25th Anniversary Public Lectures of 1st International Conference on Fish Telemetry Mystery of Fish Migration: Salmon, Eel, Lamprey, and Tuna, 18 June 2011, Sapporo, Japan</div>
+    <div class="presentation-type">口頭発表 (招待講演)</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Movement patterns and habitat use of Formosan landlocked salmon in the Chichiawan stream, Taiwan assessed by nano-tag radio telemetry</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> and Ueda, H.</div>
+    <div class="presentation-conference">International Conference on Taiwan Salmon Environmental Education, 11-15 June 2011, Taipei, Taiwan</div>
+    <div class="presentation-type">口頭発表(招待講演)</div>
+</div>
+
+### 2009年
+
+<div class="presentation-item">
+    <div class="presentation-title">Biotelemetry study on movement and habitat use of Formosan landlocked salmon (Oncorhynchus masou formosanus) and masu salmon (O. masou)</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Liao, L.Y., Nii, H., Nakao, K., Gwo, J.C., Huang, Y.S., Ueda, H.</div>
+    <div class="presentation-conference">1st International Formosa Landlocked Salmon and Masu Salmon Symposium, 22-26 October 2009, Taipei, Taiwan</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Comparison of sex-specific swimming energetics during adult migration in pink salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">8th Conference of Fish Telemetry held in Europe 14-18 Sep, 2009, Umea, Sweden</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">CARDIAC ARREST OF SPAWNING CHUM SALMON RECORDED BY ELECTROCARDIOGRAM (ECG) DATALOGGER</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Kojima, T., Ueda, H.</div>
+    <div class="presentation-conference">XXXVIth International Union of Physiological Sciences (IUPS), July 27 – August1, 2009, Kyoto, Japan</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2008年
+
+<div class="presentation-item">
+    <div class="presentation-title">Energy use and swimming behavior of pink salmon during upstream migration in the reconstructed segment of the Shibetsu River, Japan assessed by electromyogram (EMG) transmitter</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">5th World Fisheries Congress (WFC 2008) 20-24 October, 2008, Yokohama, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Cardiac performance in chum salmon during spawning behaviour recorded by electrocardiogram (ECG) dataloggers</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Ueda, H.</div>
+    <div class="presentation-conference">3rd International Biologging Science Symposium 1-5 September, 2008, Pacific Grove, CA, USA</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2007年
+
+<div class="presentation-item">
+    <div class="presentation-title">Effects of river meander restoration on upstream migration of chum salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">Japan-China biologging science symposium JC-BLOSS November 6-7, 2007, Wuhan, Hubei, China</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">The energetic cost of chum salmon during upstream migration in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">7th Conference of Fish Telemetry held in Europe 17-21 June, 2007, Silkeborg, Denmark</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Effects of the reconstruction in the Shibetsu River on upstream migration behavior of chum salmon assessed by EMG radio telemetry</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, H.Nii, K. Nakao, Ueda, H.</div>
+    <div class="presentation-conference">8th International Symposium on Reproductive Physiology of Fish (8th ISRPF 2007) 3-8 June, 2007, Saint-Malo, France</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2006年
+
+<div class="presentation-item">
+    <div class="presentation-title">Behavioral study on upstream migration of chum salmon in Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda,H.</div>
+    <div class="presentation-conference">7th International Congress on the Biology of Fish 18-22 July, 2006, St John's, Newfoundland, Canada</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2005年
+
+<div class="presentation-item">
+    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">6th Conference on Fish Telemetry held in Europe 5-11 June, 2005, Sesimbra, Portugal</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">21st COE program：Marine Bio-Manipulation Frontier for Food Production Toward Advanced and Safe Use of Aquatic Organisms1st International Symposium, 26-27 February, 2005, Sapporo, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+## 国内学会
+
+<div class="presentation-item">
+    <div class="presentation-title">夏季ベーリング海におけるサケの回遊行動</div>
+    <div class="presentation-authors">阿部貴晃（日本大学）、<strong><u>牧口祐也</u></strong>（日本大学）、髙橋晋（同志社大学）、北川貴士（東京大学）</div>
+    <div class="presentation-conference">学術変革領域（A）「階層的生物ナビ学」領域会議、令和7年7月13-14日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ホタテガイは群れて身を守る?～二枚貝の集団形成による捕食回避機構</div>
+    <div class="presentation-authors">三好晃治（中央水試）、山﨑 千登勢（網走水試）、富山 嶺（中央水試）、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">日本動物行動学会第42回大会プログラム, P-075、令和5年11月14日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">半天然⿂のサクラマス幼⿂は養殖⿂に⽐べて代謝率が⾼い</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、河内潤、⽯井優希、⼋⽊澤優、佐藤正⼈</div>
+    <div class="presentation-conference">第15回サケ学研究会、令和4年12月25日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">生物研究者によるDeepLabCutを使った生物の行動追跡について</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、三好晃治</div>
+    <div class="presentation-conference">学術変革領域研究(A) 階層的生物ナビ学勉強会、令和4年11月25日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">シシャモの繁殖行動の解析</div>
+    <div class="presentation-authors">服部鯨太、太田知志、新居久也、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">令和2年度日本水産学会春季大会、東京海洋大学、令和4年3月25日- 3月29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サケの産卵行動における心拍数と雌雄の比較</div>
+    <div class="presentation-authors">伊原希望、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">令和2年度日本水産学会春季大会、東京海洋大学、令和4年3月25日- 3月29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">産卵が近づくと消極的になるシロザケの求愛行動(サケ科学奨励賞受賞)</div>
+    <div class="presentation-authors">関恭佑、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">第14回サケ学研究会、サテライト開催、令和3年12月11日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サクラマスの雌が複数雄の精子から享受する利益の検証</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">令和2年度日本水産学会春季大会、東京海洋大学、令和2年3月26日- 3月30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ヒメマスにおけるMHC遺伝子と配偶者選択の関係</div>
+    <div class="presentation-authors">安田博貴、 <strong><u>牧口祐也</u></strong>、柳本卓、小島隆人</div>
+    <div class="presentation-conference">令和2年度日本水産学会春季大会、東京海洋大学、令和2年3月26日- 3月30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サクラマスの老魚と若魚における精子運動性能</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、泊健太、小島隆人</div>
+    <div class="presentation-conference">平成30年度日本水産学会春季大会、東京海洋大学、平成31年3月26日- 3月29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">傾角・方位センサの曳航による定置網内における魚の行動軌跡記録の試み</div>
+    <div class="presentation-authors">小島隆人、比田貴博、眞田将汰、野副倫臣、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成30年度日本水産学会春季大会、東京海洋大学、平成31年3月26日- 3月29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">低水温期の沼沢湖におけるヒメマスの放射性セシウム収支</div>
+    <div class="presentation-authors">高井則之、三好航次郎、秋坂朋哉、上田眞吾、<strong><u>牧口祐也</u></strong>、鷹崎和義、川田暁、手塚公裕、桑江朝比呂</div>
+    <div class="presentation-conference">平成30年度日本水産学会春季大会、東京海洋大学、平成31年3月26日- 3月29日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">シシャモの臨海遊泳速度</div>
+    <div class="presentation-authors">新居久也、<strong><u>牧口祐也</u></strong>、宮川椋、上田宏</div>
+    <div class="presentation-conference">平成30年度日本水産学会秋季大会、広島大学、平成30年9月15日- 9月18日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サクラマスの乱婚が子の性質に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">国立研究開発法人 水産研究・教育機東北区水産研究所沿岸漁業資源研究センター所内セミナー、平成30年度、平成30年8月2日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サケの配偶相手の選択行動とMHC遺伝子型の関係</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成30年度新学術領域「生物ナビゲーションのシステム科学」領域会議、名古屋工業大学、平成30年6月8-9日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">神経活動ロガーを活用した海鳥とマスの脳内ニューロン活動記録</div>
+    <div class="presentation-authors">髙橋晋、松本祥子、<strong><u>牧口祐也</u></strong>、井出薫、依田憲</div>
+    <div class="presentation-conference">平成30年度新学術領域「生物ナビゲーションのシステム科学」領域会議、名古屋工業大学、平成30年6月8-9日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">水中ビデオカメラを用いた底延縄漁具周辺に出現した魚の行動観察</div>
+    <div class="presentation-authors">小島隆人、沖山祐大、金井幾吹、<strong><u>牧口祐也</u></strong>、森有平</div>
+    <div class="presentation-conference">平成30年度日本水産工学会、東京海洋大学、平成30年5月12-14日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">遡上時期の異なる本州サケ集団間でみられた高温耐性と至適水温範囲の違い</div>
+    <div class="presentation-authors">阿部貴晃、北川貴士、<strong><u>牧口祐也</u></strong>、佐藤克文</div>
+    <div class="presentation-conference">平成29年度日本水産学会春季大会、東京海洋大学、平成30年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">照度の違いがシロザケの求愛行動に与える影響</div>
+    <div class="presentation-authors">横森洋治郎、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成29年度日本水産学会春季大会、東京海洋大学、平成30年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">画像解析による釣針形状の幾何学的特徴解明</div>
+    <div class="presentation-authors">小島隆人、福本大海、<strong><u>牧口祐也</u></strong>、森有平</div>
+    <div class="presentation-conference">平成29年度日本水産学会春季大会、東京海洋大学、平成30年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サクラマスの雌が乱婚から享受する利益の検証</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">第41回 長崎最西端 進化生態学セミナー、長崎大学水産学部、平成29年5月16日</div>
+    <div class="presentation-type">口頭発表（招待講演）</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ヒメマスの二次性徴とオスの精子運動性能の関係</div>
+    <div class="presentation-authors">大村風音、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成29年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">遡上時期の異なるサケ集団間での至適水温範囲の違い</div>
+    <div class="presentation-authors">阿部貴晃、北川貴士、<strong><u>牧口祐也</u></strong>、佐藤克文</div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成29年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">遡上時期の異なるサケ集団間での至適水温範囲の違い</div>
+    <div class="presentation-authors">阿部貴晃、北川貴士、<strong><u>牧口祐也</u></strong>、佐藤克文</div>
+    <div class="presentation-conference">平成28年度日本生態学会、平成28年5月</div>
+    <div class="presentation-type">ポスター発表（ポスター賞受賞）</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">動画上で漁具周辺に出現する魚を抽出するための画素による抽出の試み</div>
+    <div class="presentation-authors">沖山祐大、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成29年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">低周波騒音に対するシロザケの反応</div>
+    <div class="presentation-authors">田中昂大、小島隆人、三好風太、南條拓郎、猪股啓一郎、<strong><u>牧口祐也</u></strong>、市村政樹、島隆夫、塩原泰</div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成29年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">雌の体腔液がサクラマスの精子運動に与える影響と代替繁殖戦略の違いによる比較</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">第28回魚類生態研究会、長崎大学水産学部、平成29年2月11-12日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">イルカの短時間潜水に伴う血管収縮ホルモンの血中濃度変動</div>
+    <div class="presentation-authors">鈴木美和、伊藤美希、友重美香、<strong><u>牧口祐也</u></strong>、古賀 壮太郎、徳武浩司、豊後貴嗣</div>
+    <div class="presentation-conference">平成28年度日本水産学会秋季大会、近畿大学農学部、平成28年9月8-11日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ケプストラムを用いた魚類心電図からの心拍数推定</div>
+    <div class="presentation-authors">小島隆人、<strong><u>牧口祐也</u></strong>、津田裕一、原 隆、白須邦夫</div>
+    <div class="presentation-conference">平成28年度日本水産工学会、日本大学生物資源科学部、平成28年4月30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">三陸沿岸母川に回帰するサケ親魚の遊泳能力に与える水温の影響評価</div>
+    <div class="presentation-authors">阿部貴晃、北川貴士、青山　潤、<strong><u>牧口祐也</u></strong>、佐藤克文</div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成28年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">小型ビデオカメラによる底延縄漁具周辺に出現した魚の行動観察</div>
+    <div class="presentation-authors">沖山祐大、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成28年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">低インピーダンス生体組織を利用した人の手に触れることなく導出されたウツボの心電図</div>
+    <div class="presentation-authors">小島隆人、白石匠、登石直路、酒井尚人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成28年度日本水産学会春季大会、東京海洋大学、平成28年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">カラフトマスの個体密度が雄の繁殖行動に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、大西美宇、小橋史明、小島隆人、市村政樹</div>
+    <div class="presentation-conference">平成27年度日本水産学会春季大会、東京海洋大学、平成27年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">定置網構造の一部改良が魚群滞留特性に及ぼす効果</div>
+    <div class="presentation-authors">小島隆人、金子洋佑、成合拓、<strong><u>牧口祐也</u></strong>、石田允彦、播磨孝雄、笹倉豊喜</div>
+    <div class="presentation-conference">平成27年度日本水産学会春季大会、東京海洋大学、平成27年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">人工騒音に対するシロザケ遊泳行動の解析</div>
+    <div class="presentation-authors">吉田星也、清水大空、瀬古啓太、松本圭祐、<strong><u>牧口祐也</u></strong>、小島隆人、市村政樹、塩原泰</div>
+    <div class="presentation-conference">平成27年度日本水産学会春季大会、東京海洋大学、平成27年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">1/fゆらぎ成分を有する楽曲による魚類のストレス回復効果</div>
+    <div class="presentation-authors">重松祐輔、時松貞彰、村越伸一郎、吉田星也、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成27年度日本水産学会春季大会、東京海洋大学、平成27年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2014年
+
+<div class="presentation-item">
+    <div class="presentation-title">サケ(Oncorhynchus keta)雄の精子節約と雌の体サイズの関係</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、市村政樹、小島隆人</div>
+    <div class="presentation-conference">第8回サケ学研究会、北海道大学、平成26年12月21日</div>
+    <div class="presentation-type">口頭発表 (サケ科学奨励賞受賞)</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ABR技法によるシロザケ稚魚聴覚閾値の解明</div>
+    <div class="presentation-authors">吉田星也、<strong><u>牧口祐也</u></strong>、小島隆人、市村政樹、塩原泰</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、九州大学、平成26年9月19-22日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サケの婚姻色と精子の遊泳速度との関係</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、豊嶋紘太、小橋史明、小島隆人、市村政樹</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、北海道大学、平成26年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">日周変化がカラフトマスオスの求愛行動に与える影響</div>
+    <div class="presentation-authors">小橋史明、<strong><u>牧口祐也</u></strong>、桑島悠平、角井幸樹、小島隆人</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、北海道大学、平成26年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ABR技法を用いたシロザケ聴覚閾値の解明</div>
+    <div class="presentation-authors">吉田星也、<strong><u>牧口祐也</u></strong>、小島隆人、市村政樹、塩原泰</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、北海道大学、平成26年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">音楽放音によるブリの人為的ストレス緩和効果</div>
+    <div class="presentation-authors">小島隆人、齋藤謙太郎、重松祐輔 牧口祐也、竹下朗、平田善郎</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、北海道大学、平成26年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ガルバニック電蝕を利用した浮体切り離し装置による定置網内の魚群残留率の推定</div>
+    <div class="presentation-authors">小島隆人、成合拓、阿部真大、<strong><u>牧口祐也</u></strong>、石田允彦、笹倉豊喜</div>
+    <div class="presentation-conference">平成26年度日本水産学会春季大会、北海道大学、平成26年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2013年
+
+<div class="presentation-item">
+    <div class="presentation-title">シロザケ雄は精子を節約するのか？-雌と雄の体サイズの関係について-</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、北山武憲、根本武、市村政樹、小島隆人</div>
+    <div class="presentation-conference">日本動物行動学会 第32回大会、広島大学東広島キャンパス、平成25年11月29-12月1日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">淡水魚を対象とした使用例</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">第9回日本バイオロギング研究会シンポジウム　「バイオロギングに使える特定小電力無線局の作成について」(WS)　東京大学大気海洋研究所、平成25年11月29-12月1日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">魚類の脳波からわかること～脳波ロガー開発の試み</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">第9回日本バイオロギング研究会シンポジウム、東京大学大気海洋研究所、平成25年11月29-12月1日</div>
+    <div class="presentation-type">口頭発表(招待講演)</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">深海性二枚貝のセロトニン受容体遺伝子の発現動態</div>
+    <div class="presentation-authors">小糸智子、<strong><u>牧口祐也</u></strong>、井上広滋</div>
+    <div class="presentation-conference">平成25年度日本水産学会秋季大会、三重大学、平成25年9月19-22日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">二次性徴に伴うカラフトマスオスの形態的特徴と繁殖行動の関係</div>
+    <div class="presentation-authors">小橋史明、桑島悠平、角井幸樹、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成25年度日本水産学会秋季大会、三重大学、平成25年9月19-22日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">加速度データロガーを用いたトビウオの飛翔行動計測</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、倉持幸太、岩根静香、小島隆人、内藤靖彦</div>
+    <div class="presentation-conference">平成25年度日本水産学会秋季大会、三重大学、平成25年9月19-22日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">コイの周波数弁別能力に及ぼす鰾の役割</div>
+    <div class="presentation-authors">吉田星也、山本雄太、<strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成25年度日本水産学会秋季大会、三重大学、平成25年9月19-22日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">魚体サイズが発信機装着に伴う行動・生理状態に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、酒井智丞、北山武憲、小島隆人</div>
+    <div class="presentation-conference">平成25年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成25年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">針掛かりした魚のｺﾝﾃﾞｨｼｮﾝ推定のための魚体に触れない心電図導出の試み</div>
+    <div class="presentation-authors">飯島悠太、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成25年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成25年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2012年
+
+<div class="presentation-item">
+    <div class="presentation-title">周波数解析を用いたﾆｼﾞﾏｽ心拍の日周変動</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、小島隆人</div>
+    <div class="presentation-conference">平成24年度日本水産学会秋季大会、(独)水産大学校、平成24年9月14-17日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ニジマス心電図波形からの酸素消費量の推定</div>
+    <div class="presentation-authors">北山武憲、土田健、<strong><u>牧口祐也</u></strong>、小島隆人、石松 惇</div>
+    <div class="presentation-conference">平成24年度日本水産学会秋季大会、(独)水産大学校、平成24年9月14-17日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">音による条件付けを用いたコイの脳波測定の試み</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、鈴木亮次、小島隆人</div>
+    <div class="presentation-conference">平成24年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成24年3月26-30日</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">マグロ類のABR導出による聴覚閾値測定の試み</div>
+    <div class="presentation-authors">山本雄太、<strong><u>牧口祐也</u></strong>、小島隆人、今泉智人、赤松友成</div>
+    <div class="presentation-conference">平成24年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成24年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">水温変化がニジマスの心電図波形変化に与える影響</div>
+    <div class="presentation-authors">北山武憲、<strong><u>牧口祐也</u></strong>、小島隆人、石松惇</div>
+    <div class="presentation-conference">平成24年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成24年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">クラシック楽曲のブリ稚魚成長促進に及ぼす効果</div>
+    <div class="presentation-authors">小島隆人、関大介、<strong><u>牧口祐也</u></strong>、原隆、戸田亨次、三星亨</div>
+    <div class="presentation-conference">平成24年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成24年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">定置網漁業者の水揚予想に反映される過去の漁獲動向</div>
+    <div class="presentation-authors">簾慎太郎、杉山太一、小島隆人、<strong><u>牧口祐也</u></strong>、石田允彦、山本浩一</div>
+    <div class="presentation-conference">平成24年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成24年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">漁獲課程で魚が受けるインパクト推定のための人間の手を介さない魚類心電図導出法の開発</div>
+    <div class="presentation-authors">飯島悠太、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成23年度日本水産工学会、東京海洋大学品川キャンパス、平成24年11月05日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">付加質量を増設した枝縄の振動から推測される延縄漁具に針掛りした魚の運動能力</div>
+    <div class="presentation-authors">伊東隼、小島隆人、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">平成23年度日本水産工学会、東京海洋大学品川キャンパス、平成24年11月05日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2011年
+
+<div class="presentation-item">
+    <div class="presentation-title">ニジマス心電図波形解析による代謝推定の試み</div>
+    <div class="presentation-authors">北山武憲、<strong><u>牧口祐也</u></strong>、小島隆人、石松惇</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、長崎大学文教キャンパス、平成23年9月28-10月2日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ニジマスの心電図波形解析による心拍出量の推定</div>
+    <div class="presentation-authors">北山武憲、<strong><u>牧口祐也</u></strong>、小島隆人、石松惇</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成23年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">加速度データロガーを用いたコイの摂餌行動の検出</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、杉江善和、小島隆人、内藤靖彦</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成23年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">クラシック楽曲がブリ成育に及ぼす効果</div>
+    <div class="presentation-authors">金田一昌紀、黒柳翔吾、小島隆人、<strong><u>牧口祐也</u></strong>、間野伸宏、鈴木美和、朝比奈潔、戸田亨次、原隆、白須邦夫</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成23年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ブリおよびマダイの周波数弁別能力</div>
+    <div class="presentation-authors">秋山光、曽野祥之、高橋舞、宮島慎平、木原悠、小島隆人、<strong><u>牧口祐也</u></strong>、原隆、白須邦夫</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成23年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">静岡県伊豆半島東岸における定置網漁況による魚群行動の推定</div>
+    <div class="presentation-authors">杉山太一、川井雄五、田所晶央、<strong><u>牧口祐也</u></strong>、小島隆人、御宿昭彦</div>
+    <div class="presentation-conference">平成23年度日本水産学会春季大会、東京海洋大学品川キャンパス、平成23年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2010年
+
+<div class="presentation-item">
+    <div class="presentation-title">豊平川の床止工改修がシロザケの遡上行動に及ぼす影響</div>
+    <div class="presentation-authors">小西晃司、<strong><u>牧口祐也</u></strong>、坂下拓、新居久也、中尾勝哉、岡本康寿、津村憲、谷野賢二、上田宏</div>
+    <div class="presentation-conference">平成22年度日本水産学会春季大会、日本大学生物資源科学部藤沢キャンパス、平成22年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元がサクラマス幼魚の河川内行動に及ぼす影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、上田宏</div>
+    <div class="presentation-conference">平成22年度日本水産学会春季大会、日本大学生物資源科学部　藤沢キャンパス、平成22年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">シロザケ産卵行動時における心停止機構に関する研究</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、市村政樹、永田鎮也、村田秀樹、小島隆人、上田宏</div>
+    <div class="presentation-conference">平成22年度日本水産学会春季大会、日本大学生物資源科学部　藤沢キャンパス、平成22年3月26-30日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2009年
+
+<div class="presentation-item">
+    <div class="presentation-title">シロザケ産卵行動時における心停止およびその制御に関する研究</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、市村政樹、永田鎮也、村田秀樹、小島隆人、上田宏</div>
+    <div class="presentation-conference">第3回 サケ学研究会　First Conference of Salmon Science Society、恵庭孵化場、平成21年12月5日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Cardiac Arrest during Gamete Release in Chum Salmon Regulated by the Parasympathetic Nerve System</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Kojima, T., Ueda, H.</div>
+    <div class="presentation-conference">5th Symposium by Japanese Society of Bio-Logging Science on July 27, 2009</div>
+    <div class="presentation-type"></div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">豊平川の床止工がシロザケの遡上行動に及ぼす影響</div>
+    <div class="presentation-authors">今野義文、<strong><u>牧口祐也</u></strong>、坂下拓、新居久也、中尾勝哉、岡本康寿、津村憲、谷野賢二、上田宏</div>
+    <div class="presentation-conference">平成21年度日本水産学会春季大会、東京海洋大学　品川キャンパス、平成21年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">EMG発信機を用いたカラフトマス親魚の遡上エネルギーコストの雌雄比較</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、今野義文、新居久也、中尾勝哉、永田光博、上田宏</div>
+    <div class="presentation-conference">平成21年度日本水産学会春季大会、東京海洋大学　品川キャンパス、平成21年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2008年
+
+<div class="presentation-item">
+    <div class="presentation-title">豊平川の床止工がシロザケの遡上行動に及ぼす影響</div>
+    <div class="presentation-authors">今野義文、<strong><u>牧口祐也</u></strong>、坂下拓、新居久也、中尾勝哉、津村憲、谷野賢二、上田宏</div>
+    <div class="presentation-conference">第2回 サケ学研究会　First Conference of Salmon Science Society、北海道大学 函館キャンパス、平成20年12月13日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ECGロガーによるシロザケの産卵行動時に心拍変動解析</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、今野義文、市村政樹、永田鎮也、村田秀樹、小島隆人、上田宏</div>
+    <div class="presentation-conference">第2回サケ学研究会　First Conference of Salmon Science Society、北海道大学 函館キャンパス、平成20年12月13日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ECGロガーによるシロザケの産卵行動時に心拍変動解析</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、今野義文、市村政樹、永田鎮也、村田秀樹、小島隆人、上田宏</div>
+    <div class="presentation-conference">日本バイオロギング研究会　第4回シンポジウムin 2008、長崎大学　医学部良順会館、平成20年11月15-16日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">床止工がシロザケの遡上行動に及ぼす影響</div>
+    <div class="presentation-authors">今野義文、<strong><u>牧口祐也</u></strong>、岡本康寿、上田宏</div>
+    <div class="presentation-conference">平成20年度日本水産学会大会、東海大学　清水キャンパス、平成20年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">台風による増水がサラマオマスの河川内行動に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、廖林芯、今野義文、李世彬、新居久也、中尾勝哉、郭金泉、上田宏</div>
+    <div class="presentation-conference">平成20年度日本水産学会大会、東海大学　清水キャンパス、平成20年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元がカラフトマスの遡上行動に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、今野義文、新居久也、中尾勝哉、永田光博、上田宏</div>
+    <div class="presentation-conference">平成20年度日本水産学会春季大会、東海大学　清水キャンパス、平成20年3月27-31日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2007年
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元がサケ科魚類親魚の遡上行動に与える影響</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、上田宏</div>
+    <div class="presentation-conference">第10回 河川生態学術研究会、東京　星陵会館　平成19年12月12日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ヤマメ1歳魚に対する発信機装着法の検討</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、上田宏</div>
+    <div class="presentation-conference">平成19年度日本水産学会秋季大会、北海道大学　函館キャンパス、平成19年9月25-28日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">心拍ロガーを用いたシロザケ親魚遡上時の遊泳行動解析</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、永田鎮也、村田秀樹、上田宏</div>
+    <div class="presentation-conference">第1回 サケ学研究会　First Conference of Salmon Science Society、北海道大学 函館キャンパス、平成19年9月24日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元がシロザケの遡上行動に与える影響について</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、永田光博、上田宏</div>
+    <div class="presentation-conference">日本バイオロギング研究会　第3回シンポジウムin 2007、北海道大学　札幌キャンパス、平成19年9月8日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">心拍ロガーを用いたシロザケの遡上行動解析</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、永田鎮也、村田秀樹、上田宏</div>
+    <div class="presentation-conference">日本バイオロギング研究会　第3回シンポジウムin 2007、北海道大学　札幌キャンパス、平成19年9月8日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">ナノタグを用いたバイオテレメトリーによるシシャモの河川内遡上行動調査</div>
+    <div class="presentation-authors">新居久也、<strong><u>牧口祐也</u></strong>、上田宏</div>
+    <div class="presentation-conference">平成19年度日本水産学会大会、東京海洋大学　品川キャンパス、平成19年3月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元がシロザケの遡上行動に与える影響について</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、春日井潔、永田光博、上田宏</div>
+    <div class="presentation-conference">平成19年度日本水産学会大会、東京海洋大学　品川キャンパス、平成19年3月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2006年
+
+<div class="presentation-item">
+    <div class="presentation-title">バイオテレメトリー手法による標津川におけるシロザケの遡上行動</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、上田宏</div>
+    <div class="presentation-conference">第77回日本動物学会大会　松江大会、島根大学　松江キャンパス、平成18年9月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">バイオテレメトリーによる台湾サラマオマスの河川内行動調査</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、廖林芯、郭金泉、上田宏</div>
+    <div class="presentation-conference">平成18年度日本水産学会大会、高知大学　朝倉キャンパス、平成18年3月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川におけるサケ科魚類親魚の遡上行動</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、春日井潔、杉若圭一、上田宏</div>
+    <div class="presentation-conference">平成18年度日本水産学会大会、高知大学　朝倉キャンパス、平成18年3月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川におけるシロザケとカラフトマスの遡上行動</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、上田宏</div>
+    <div class="presentation-conference">北大-京大-琉大連携 フィールド科学シンポジウム、北海道大学、平成18年7月</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2005年
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元に伴うサケ科魚類の遡上行動の変化</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、上田宏</div>
+    <div class="presentation-conference">平成17年度日本水産学会大会、東京海洋大学　品川キャンパス、平成17年3月</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">標津川の蛇行復元に伴うサケ科魚類の遡上行動の変化</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、新居久也、中尾勝哉、上田宏</div>
+    <div class="presentation-conference">魚の研究交流会2005、北海道立孵化場　本場（恵庭）、平成17年2月</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>

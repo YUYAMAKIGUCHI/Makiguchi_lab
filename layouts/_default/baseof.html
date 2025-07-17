@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="keywords" content="牧口祐也,サケ科魚類,行動生態学,バイオロギング,日本大学,海洋生物資源科学">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.sharing_image }}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="twitter:description" content="{{ .Site.Params.description }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.sharing_image }}">
+    
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/final-fix.css">
+    {{ if .IsHome }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/news-home-fix.css">
+    {{ end }}
+    {{ if eq .Type "news" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/news-grid-fix.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/news-grid-emergency.css">
+    {{ end }}
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/favicon.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "牧口祐也",
+      "alternateName": "Yuya Makiguchi",
+      "jobTitle": "准教授",
+      "worksFor": {
+        "@type": "EducationalOrganization",
+        "@name": "日本大学生物資源科学部"
+      },
+      "email": "{{ .Site.Params.email }}",
+      "sameAs": [
+        "https://twitter.com/{{ .Site.Params.twitter }}"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header" id="site-header">
+        <div class="header-container">
+            <div class="site-branding">
+                <div class="site-logo">
+                    <img src="{{ .Site.BaseURL }}img/logo-icon.png" alt="研究室ロゴ" onerror="this.style.display='none'; this.parentElement.innerHTML='YM';">
+                </div>
+                <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+            </div>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li data-tooltip="{{ .Name }}"><a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="メニューを開く">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-map-marker-alt"></i> 連絡先</h3>
+                <p>{{ .Site.Params.address }}</p>
+                <p><i class="fas fa-envelope"></i> <a href="#" id="footer-email-link" data-user="makiguchi.yuya" data-domain="nihon-u.ac.jp" style="color: inherit; text-decoration: none;"><span id="footer-email-display">[メールアドレスを表示]</span></a></p>
+            </div>
+            <div class="footer-section">
+                <h3><i class="fas fa-link"></i> クイックリンク</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="https://www.brs.nihon-u.ac.jp/">日本大学生物資源科学部</a></li>
+                    <li><a href="/profile/#researcher-database">研究者データベース</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3><i class="fas fa-clock"></i> 最終更新</h3>
+                <p class="last-update">{{ now.Format "2006年1月2日" }}</p>
+                <p style="margin-top: 1rem;">
+                    <a href="/sitemap/" style="color: var(--accent-sand);"><i class="fas fa-sitemap"></i> サイトマップ</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Format "2006" }} 魚群行動計測学研究室. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="{{ .Site.BaseURL }}js/main.js"></script>
+    
+    <!-- フッターメールアドレスのスパム対策 -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const footerEmailLink = document.getElementById('footer-email-link');
+        const footerEmailDisplay = document.getElementById('footer-email-display');
+        if (footerEmailLink && footerEmailDisplay) {
+            const user = footerEmailLink.getAttribute('data-user');
+            const domain = footerEmailLink.getAttribute('data-domain');
+            const email = user + '@' + domain;
+            
+            footerEmailLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                footerEmailDisplay.textContent = email;
+                footerEmailLink.href = 'mailto:' + email;
+                // 次回のクリックで通常のmailtoリンクとして動作
+                footerEmailLink.removeEventListener('click', arguments.callee);
+            });
+        }
+    });
+    </script>
+</body>
+</html>

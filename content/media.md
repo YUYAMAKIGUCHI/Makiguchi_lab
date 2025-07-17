@@ -1,0 +1,4 @@
+---
+title: "メディア"
+layout: "media"
+---

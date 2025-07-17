@@ -1,0 +1,50 @@
+/* HOMEページの最新のお知らせ用スタイル */
+/* ホームページのニュースセクションのみリスト表示にする */
+
+/* ホームページ専用のセレクタを使用 */
+.news-list-home .news-item-home {
+  display: flex !important;
+  gap: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  padding: 1.5rem !important;
+  background: var(--light-cream);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  align-items: center;
+}
+
+.news-list-home .news-item-home:hover {
+  transform: translateX(5px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+
+.news-list-home .news-thumbnail-home {
+  width: 300px !important;
+  height: 200px !important;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.news-list-home .news-content-home {
+  flex: 1;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .news-list-home .news-item-home {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  
+  .news-list-home .news-thumbnail-home {
+    width: 100% !important;
+    height: 240px !important;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ニュース一覧ページのグリッドには影響しないようにする */
+body:not(.home-page) #newsContainer.news-grid {
+  /* news-grid-fix.cssのスタイルが適用される */
+}

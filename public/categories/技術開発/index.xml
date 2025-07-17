@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技術開発 on 魚群行動計測学研究室 | Makiguchi Lab</title>
+    <link>http://localhost:1313/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in 技術開発 on 魚群行動計測学研究室 | Makiguchi Lab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>遊泳しているマス（サケ科魚類）の脳内から神経細胞活動を無線で計測する手法を開発</title>
+      <link>http://localhost:1313/news/2021-03-16-wireless-neural/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2021-03-16-wireless-neural/</guid>
+      <description>&lt;h2 id=&#34;研究成果のポイント&#34;&gt;研究成果のポイント&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;遊泳するサケ科魚類の脳内から無線で神経細胞活動を計測する手法を開発&lt;/li&gt;&#xA;&lt;li&gt;マス（サケ科魚類）の終脳には頭が向いている方向に反応する細胞が存在する&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;公表雑誌：&lt;/strong&gt; Animal Biotelemetry (2021)&lt;/p&gt;&#xA;&lt;h2 id=&#34;研究の背景と目的&#34;&gt;研究の背景と目的&lt;/h2&gt;&#xA;&lt;p&gt;魚類の行動を理解するためには、行動中の脳活動を直接測定することが重要です。しかし、従来の手法では、魚を固定した状態でしか脳活動を記録できませんでした。本研究では、自由に泳ぐ魚の脳活動をリアルタイムで記録する革新的な技術を開発しました。&lt;/p&gt;&#xA;&lt;h2 id=&#34;開発した技術の特徴&#34;&gt;開発した技術の特徴&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-超小型無線送信機&#34;&gt;1. 超小型無線送信機&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;重量：1.2g以下&lt;/li&gt;&#xA;&lt;li&gt;送信範囲：水中で最大5m&lt;/li&gt;&#xA;&lt;li&gt;バッテリー寿命：連続記録で48時間&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-高感度電極システム&#34;&gt;2. 高感度電極システム&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;複数の神経細胞から同時記録可能&lt;/li&gt;&#xA;&lt;li&gt;ノイズ除去アルゴリズムの実装&lt;/li&gt;&#xA;&lt;li&gt;リアルタイムデータ処理&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;主な発見&#34;&gt;主な発見&lt;/h2&gt;&#xA;&lt;h3 id=&#34;方向選択性細胞の発見&#34;&gt;方向選択性細胞の発見&lt;/h3&gt;&#xA;&lt;p&gt;終脳（魚類の大脳に相当）から、特定の方向に頭を向けたときに活発に活動する神経細胞を発見しました。これは、魚類にも哺乳類と同様の空間認知システムが存在することを示唆しています。&lt;/p&gt;&#xA;&lt;h3 id=&#34;行動と脳活動の関連&#34;&gt;行動と脳活動の関連&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;直進時&lt;/strong&gt;：特定の細胞群が持続的に活動&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;方向転換時&lt;/strong&gt;：異なる細胞群が瞬間的に活性化&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;摂餌行動時&lt;/strong&gt;：複数の脳領域で協調的な活動パターン&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;技術の応用可能性&#34;&gt;技術の応用可能性&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;基礎研究への貢献&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;魚類の認知機能の解明&lt;/li&gt;&#xA;&lt;li&gt;進化的な脳機能の比較研究&lt;/li&gt;&#xA;&lt;li&gt;行動制御メカニズムの理解&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;応用研究への展開&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;養殖魚のストレス評価&lt;/li&gt;&#xA;&lt;li&gt;環境変化への適応機構の解明&lt;/li&gt;&#xA;&lt;li&gt;効率的な飼育方法の開発&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;今後の展望&#34;&gt;今後の展望&lt;/h2&gt;&#xA;&lt;p&gt;この技術をさらに発展させ、より長期間の記録や、複数個体からの同時記録を可能にすることで、魚類の社会行動や群れ行動の神経基盤の解明を目指します。また、他の水生動物への応用も検討しています。&lt;/p&gt;&#xA;&lt;h2 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[論文へのリンク（準備中）]&lt;/li&gt;&#xA;&lt;li&gt;[プレスリリース（準備中）]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

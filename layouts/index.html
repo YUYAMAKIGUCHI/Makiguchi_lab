@@ -1,0 +1,164 @@
+{{ define "main" }}
+<section class="hero-section">
+    <!-- 背景動画 -->
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="/video/hero-video.mp4" type="video/mp4">
+        <source src="/video/hero-video.webm" type="video/webm">
+        <!-- 動画が再生できない場合は既存の背景画像を表示 -->
+    </video>
+    
+    <!-- 産卵行動研究へのリンク -->
+    <a href="/research/#spawning-behavior" class="video-research-link">
+        <span class="link-text">この産卵行動に<br>関する研究はこちら</span>
+        <span class="link-arrow">→</span>
+    </a>
+    
+    <div class="hero-content">
+        <div class="hero-top">
+            <!-- 視覚的に訴求力のある3つのキーワード -->
+            <div class="hero-keywords fade-in-delay">
+                <div class="keyword-item">
+                    <i class="fas fa-wifi"></i>
+                    <span>バイオロギング</span>
+                </div>
+                <div class="keyword-divider">×</div>
+                <div class="keyword-item">
+                    <i class="fas fa-fish"></i>
+                    <span>サケ科魚類</span>
+                </div>
+                <div class="keyword-divider">×</div>
+                <div class="keyword-item">
+                    <i class="fas fa-dna"></i>
+                    <span>繁殖生態</span>
+                </div>
+            </div>
+            
+            <!-- 簡潔なキャッチコピー -->
+            <p class="hero-tagline fade-in-delay">
+                最新技術で解き明かす、魚たちの知られざる生態
+            </p>
+        </div>
+        
+        <div class="hero-bottom">
+            <div class="hero-actions fade-in-delay">
+                <a href="/research/" class="btn btn-primary">
+                    <i class="fas fa-microscope"></i> 研究内容を見る
+                </a>
+                <a href="/publications/" class="btn btn-outline">
+                    <i class="fas fa-book"></i> 論文リスト
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="content-section">
+    <!-- 研究室情報 -->
+    <div class="lab-info-section">
+        <h1 class="lab-title">日本大学 生物資源科学部 海洋生物学科 魚群行動計測学研究室</h1>
+    </div>
+    
+    <!-- お知らせセクション -->
+    <div class="card fade-in">
+        <h2 class="card-title"><i class="fas fa-bullhorn"></i> 最新のお知らせ</h2>
+        <div class="news-list-home" style="display: block;">
+            {{ $newsPages := where .Site.RegularPages "Section" "news" }}
+            {{ if $newsPages }}
+                {{ range first 3 ($newsPages.ByDate.Reverse) }}
+                <div class="news-item-home" style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; padding: 1.5rem; background: var(--light-cream); border-radius: 12px; transition: all 0.3s ease; align-items: center;">
+                    {{ if .Params.thumbnail }}
+                    <div class="news-thumbnail-home" style="width: 300px; height: 200px; flex-shrink: 0; border-radius: 8px; overflow: hidden;">
+                        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    {{ end }}
+                    <div class="news-content-home" style="flex: 1;">
+                        <time class="news-date" style="display: inline-block; background: var(--accent-sage); color: var(--dark-forest); padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem;">
+                            <i class="far fa-calendar"></i> {{ .Date.Format "2006.01.02" }}
+                        </time>
+                        <h3 class="news-title" style="font-size: 1.25rem; margin-bottom: 0.5rem; font-weight: 600;">
+                            <a href="{{ .Permalink }}" style="color: var(--dark-forest); text-decoration: none;">{{ .Title }}</a>
+                        </h3>
+                        {{ if .Params.categories }}
+                        <div class="news-categories" style="margin-bottom: 0.5rem;">
+                            {{ range .Params.categories }}
+                            <span class="category-tag" style="display: inline-block; background: var(--accent-sand); color: var(--primary-terra); padding: 0.2rem 0.8rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                        <p class="news-summary" style="color: #666; line-height: 1.6;">{{ substr (.Summary | plainify) 0 100 }}...</p>
+                    </div>
+                </div>
+                {{ end }}
+            {{ else }}
+                <p style="text-align: center; color: #666;">現在、お知らせはありません。</p>
+            {{ end }}
+        </div>
+        <a href="/news/" class="btn btn-secondary" style="margin-top: 2rem;">
+            <i class="fas fa-archive"></i> ニュースアーカイブを見る
+        </a>
+    </div>
+
+    <!-- 研究トピックス -->
+    <div class="research-topics" style="margin-top: 4rem;">
+        <h2 style="text-align: center; margin-bottom: 3rem;">主要研究テーマ</h2>
+        <div class="topic-grid">
+            <div class="topic-card fade-in">
+                <div class="topic-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h3 class="card-title">バイオロギング技術</h3>
+                <p>最新のセンサー技術を用いて、サケ科魚類の行動を3次元的に記録・解析。加速度、深度、温度データから行動パターンを解明します。</p>
+                <div class="tags">
+                    <span class="tag">データロガー</span>
+                    <span class="tag">行動解析</span>
+                    <span class="tag">機械学習</span>
+                </div>
+            </div>
+            
+            <div class="topic-card fade-in">
+                <div class="topic-icon">
+                    <i class="fas fa-water"></i>
+                </div>
+                <h3 class="card-title">河川生態系研究</h3>
+                <p>北海道の標津川を中心に、日本各地の河川でフィールド調査を実施。環境要因が魚類の遡上行動に与える影響を研究しています。</p>
+                <div class="tags">
+                    <span class="tag">フィールド調査</span>
+                    <span class="tag">環境DNA</span>
+                    <span class="tag">標津川</span>
+                </div>
+            </div>
+            
+            <div class="topic-card fade-in">
+                <div class="topic-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3 class="card-title">繁殖生態の解明</h3>
+                <p>サケの産卵床選択や繁殖行動の詳細なメカニズムを研究。気候変動が繁殖成功に与える影響についても調査しています。</p>
+                <div class="tags">
+                    <span class="tag">産卵行動</span>
+                    <span class="tag">保全生物学</span>
+                    <span class="tag">気候変動</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA セクション -->
+    <div class="card contact-info fade-in" style="background: var(--gradient-hero); color: white; text-align: center; margin-top: 4rem;">
+        <h2 style="color: white;">研究室へのお問い合わせ</h2>
+        <p style="font-size: 1.1rem; margin: 1.5rem 0;">
+            研究内容に関するご質問、共同研究のご提案、見学のご希望など<br>
+            お気軽にお問い合わせください
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="mailto:makiguchi.yuya@nihon-u.ac.jp" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> メールで問い合わせ
+            </a>
+            <a href="/profile/" class="btn btn-outline">
+                <i class="fas fa-user"></i> プロフィール詳細
+            </a>
+        </div>
+    </div>
+</section>
+{{ end }}

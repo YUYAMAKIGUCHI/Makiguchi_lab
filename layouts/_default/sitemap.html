@@ -1,0 +1,128 @@
+{{ define "main" }}
+<div class="page-container">
+    <div class="content-wrapper">
+        <div class="page-header">
+            <h1><i class="fas fa-sitemap"></i> サイトマップ</h1>
+        </div>
+        
+        <div class="sitemap-content">
+            <div class="sitemap-section">
+                <h2>メインページ</h2>
+                <ul class="sitemap-list">
+                    <li><a href="{{ .Site.BaseURL }}"><i class="fas fa-home"></i> ホーム</a></li>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}"><i class="fas fa-chevron-right"></i> {{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="sitemap-section">
+                <h2>ニュース記事</h2>
+                <ul class="sitemap-list">
+                    {{ range where .Site.RegularPages "Type" "news" }}
+                    <li>
+                        <a href="{{ .Permalink }}">
+                            <i class="fas fa-newspaper"></i> {{ .Title }}
+                            <span class="sitemap-date">({{ .Date.Format "2006年1月2日" }})</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="sitemap-section">
+                <h2>カテゴリー</h2>
+                <ul class="sitemap-list">
+                    {{ range .Site.Taxonomies.categories }}
+                    <li>
+                        <a href="{{ .Page.Permalink }}">
+                            <i class="fas fa-folder"></i> {{ .Page.Title }}
+                            <span class="sitemap-count">({{ len . }}件)</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="sitemap-section">
+                <h2>XML サイトマップ</h2>
+                <p>検索エンジン用のXMLサイトマップは以下からご覧いただけます：</p>
+                <ul class="sitemap-list">
+                    <li><a href="/sitemap.xml" target="_blank"><i class="fas fa-code"></i> サイト全体のXMLサイトマップ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.sitemap-content {
+    margin-top: 2rem;
+}
+
+.sitemap-section {
+    margin-bottom: 3rem;
+}
+
+.sitemap-section h2 {
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--primary-blue);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.sitemap-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sitemap-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.sitemap-list li:last-child {
+    border-bottom: none;
+}
+
+.sitemap-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.sitemap-list a:hover {
+    color: var(--primary-blue);
+}
+
+.sitemap-list i {
+    color: var(--primary-blue);
+    width: 20px;
+    text-align: center;
+}
+
+.sitemap-date,
+.sitemap-count {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .sitemap-list a {
+        flex-wrap: wrap;
+    }
+    
+    .sitemap-date,
+    .sitemap-count {
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 0.25rem;
+    }
+}
+</style>
+{{ end }}
