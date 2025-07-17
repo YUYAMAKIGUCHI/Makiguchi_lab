@@ -1,0 +1,199 @@
+/* ========== 最終的な緊急修正 ========== */
+
+/* 問題のあるクラスを完全に無効化 */
+#newsContainer .news-item-with-thumbnail, .news-grid .news-item-with-thumbnail {
+  display: none !important;
+}
+
+/* newsContainerの基本設定 */
+#newsContainer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* グリッド表示の絶対的な強制 - 4列表示 */
+#newsContainer.news-grid,
+.news-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 20px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* すべての子要素のリセット */
+#newsContainer > *,
+.news-grid > * {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  grid-column: span 1 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* list-itemクラスの完全リセット */
+.news-grid .list-item,
+#newsContainer .list-item {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* news-tileの正しいスタイル */
+.news-grid .news-tile,
+#newsContainer .news-tile {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 280px !important;
+  background: white !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 画像部分の固定 */
+.news-grid .news-tile-image,
+#newsContainer .news-tile-image {
+  width: 100% !important;
+  height: 160px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  flex-shrink: 0 !important;
+  background: #f5f5f5 !important;
+}
+
+.news-grid .news-tile-image img,
+#newsContainer .news-tile-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+/* コンテンツ部分 */
+.news-grid .news-tile-content,
+#newsContainer .news-tile-content {
+  padding: 15px !important;
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* タイトル */
+.news-grid .news-tile-title,
+#newsContainer .news-tile-title {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+/* 日付 */
+.news-grid .news-tile-date,
+#newsContainer .news-tile-date {
+  font-size: 0.8rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #666 !important;
+}
+
+/* カテゴリタグ */
+.news-grid .category-tag,
+#newsContainer .category-tag {
+  font-size: 0.7rem !important;
+  padding: 0.15rem 0.5rem !important;
+}
+
+/* その他の要素も念のため無効化 */
+.news-grid .news-content,
+.news-grid .news-thumbnail,
+#newsContainer .news-content,
+#newsContainer .news-thumbnail {
+  display: none !important;
+}
+
+/* ホバー効果の修正 */
+.news-grid .news-tile:hover,
+#newsContainer .news-tile:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* 強制的にグリッドレイアウトを維持 */
+@media screen and (min-width: 1200px) {
+  #newsContainer.news-grid,
+  .news-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #newsContainer.news-grid,
+  .news-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 18px !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #newsContainer.news-grid,
+  .news-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #newsContainer.news-grid,
+  .news-grid {
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+  }
+  
+  .news-grid .news-tile,
+  #newsContainer .news-tile {
+    min-height: 260px !important;
+  }
+  
+  .news-grid .news-tile-image,
+  #newsContainer .news-tile-image {
+    height: 140px !important;
+  }
+}
+
+/* デバッグ用ボーダーは削除済み */
+
+/* ビュー切り替えボタンを削除（タイムライン機能を含む） */
+.view-switcher {
+  display: none !important;
+}
+
+.view-button {
+  display: none !important;
+}
