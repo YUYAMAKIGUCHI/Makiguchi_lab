@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 魚群行動計測学研究室 | Makiguchi Lab</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://yuya-makiguchi.jp/categories/</link>
     <description>Recent content in Categories on 魚群行動計測学研究室 | Makiguchi Lab</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuya-makiguchi.jp/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>査読付き論文</title>
-      <link>http://localhost:1313/categories/%E6%9F%BB%E8%AA%AD%E4%BB%98%E3%81%8D%E8%AB%96%E6%96%87/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E6%9F%BB%E8%AA%AD%E4%BB%98%E3%81%8D%E8%AB%96%E6%96%87/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E6%9F%BB%E8%AA%AD%E4%BB%98%E3%81%8D%E8%AB%96%E6%96%87/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E6%9F%BB%E8%AA%AD%E4%BB%98%E3%81%8D%E8%AB%96%E6%96%87/</guid>
       <description></description>
     </item>
     <item>
       <title>生理学</title>
-      <link>http://localhost:1313/categories/%E7%94%9F%E7%90%86%E5%AD%A6/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E7%94%9F%E7%90%86%E5%AD%A6/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E7%94%9F%E7%90%86%E5%AD%A6/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E7%94%9F%E7%90%86%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>行動生態</title>
-      <link>http://localhost:1313/categories/%E8%A1%8C%E5%8B%95%E7%94%9F%E6%85%8B/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E8%A1%8C%E5%8B%95%E7%94%9F%E6%85%8B/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E8%A1%8C%E5%8B%95%E7%94%9F%E6%85%8B/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E8%A1%8C%E5%8B%95%E7%94%9F%E6%85%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>お知らせ</title>
-      <link>http://localhost:1313/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid>
       <description></description>
     </item>
     <item>
       <title>人事</title>
-      <link>http://localhost:1313/categories/%E4%BA%BA%E4%BA%8B/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E4%BA%BA%E4%BA%8B/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E4%BA%BA%E4%BA%8B/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E4%BA%BA%E4%BA%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>技術開発</title>
-      <link>http://localhost:1313/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/</link>
+      <link>https://yuya-makiguchi.jp/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/</link>
       <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/</guid>
+      <guid>https://yuya-makiguchi.jp/categories/%E6%8A%80%E8%A1%93%E9%96%8B%E7%99%BA/</guid>
       <description></description>
     </item>
   </channel>
