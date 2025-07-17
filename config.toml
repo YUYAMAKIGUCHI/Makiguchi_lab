@@ -1,4 +1,4 @@
-baseURL = 'https://makiguchi-lab.netlify.app/'
+baseURL = "https://yuya-makiguchi.jp/"
 languageCode = 'ja'
 title = '魚群行動計測学研究室 | Makiguchi Lab'
 # theme = 'academic' # テーマを使用しない（カスタムレイアウトを使用）

@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://makiguchi-lab.netlify.app/ja/categories/</loc>
+    <loc>https://yuya-makiguchi.jp/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://makiguchi-lab.netlify.app/categories/"
+                href="https://yuya-makiguchi.jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://makiguchi-lab.netlify.app/ja/categories/"
+                href="https://yuya-makiguchi.jp/ja/categories/"
                 />
   </url><url>
-    <loc>https://makiguchi-lab.netlify.app/ja/tags/</loc>
+    <loc>https://yuya-makiguchi.jp/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://makiguchi-lab.netlify.app/tags/"
+                href="https://yuya-makiguchi.jp/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://makiguchi-lab.netlify.app/ja/tags/"
+                href="https://yuya-makiguchi.jp/ja/tags/"
                 />
   </url><url>
-    <loc>https://makiguchi-lab.netlify.app/ja/</loc>
+    <loc>https://yuya-makiguchi.jp/ja/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://makiguchi-lab.netlify.app/"
+                href="https://yuya-makiguchi.jp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://makiguchi-lab.netlify.app/ja/"
+                href="https://yuya-makiguchi.jp/ja/"
                 />
   </url>
 </urlset>
