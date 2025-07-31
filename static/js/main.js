@@ -1,5 +1,6 @@
-// メインJavaScript - アカデミック・モダンデザイン
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM読み込み完了');
+    
     // メールアドレスの保護（ボット対策）
     const emailLink = document.getElementById('email-link');
     const emailDisplay = document.getElementById('email-display');
@@ -37,37 +38,105 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // モバイルメニューのトグル機能
-    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-    const mainNav = document.getElementById('main-nav');
-    
-    if (mobileMenuToggle && mainNav) {
-        mobileMenuToggle.addEventListener('click', function() {
-            mainNav.classList.toggle('active');
-            
-            // アイコンの切り替え
-            const icon = this.querySelector('i');
-            if (mainNav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-                this.setAttribute('aria-label', 'メニューを閉じる');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-                this.setAttribute('aria-label', 'メニューを開く');
-            }
+    setTimeout(() => {
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+        
+        console.log('メニュー要素の確認:', {
+            mobileMenuToggle: mobileMenuToggle,
+            mainNav: mainNav,
+            mobileMenuToggleDisplay: mobileMenuToggle ? window.getComputedStyle(mobileMenuToggle).display : 'null',
+            mainNavDisplay: mainNav ? window.getComputedStyle(mainNav).display : 'null'
         });
         
-        // メニュー外クリックで閉じる
-        document.addEventListener('click', function(e) {
-            if (!mainNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
-                mainNav.classList.remove('active');
+        if (mobileMenuToggle && mainNav) {
+            // メニューの開閉を処理する関数
+            const toggleMenu = function(e) {
+                if (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+                
+                console.log('メニューボタンクリック！');
+                console.log('mainNav classes before:', mainNav.className);
+                console.log('mainNav computed style before:', window.getComputedStyle(mainNav).transform);
+                
+                mainNav.classList.toggle('active');
+                
+                console.log('mainNav classes after:', mainNav.className);
+                console.log('mainNav computed style after:', window.getComputedStyle(mainNav).transform);
+                
+                // アイコンの切り替え
                 const icon = mobileMenuToggle.querySelector('i');
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-                mobileMenuToggle.setAttribute('aria-label', 'メニューを開く');
-            }
-        });
-    }
+                if (mainNav.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                    mobileMenuToggle.setAttribute('aria-label', 'メニューを閉じる');
+                    // アクセシビリティのための設定
+                    mainNav.setAttribute('aria-hidden', 'false');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                    mobileMenuToggle.setAttribute('aria-label', 'メニューを開く');
+                    // アクセシビリティのための設定
+                    mainNav.setAttribute('aria-hidden', 'true');
+                }
+            };
+            
+            // クリックイベント（デスクトップとモバイル両方に対応）
+            mobileMenuToggle.addEventListener('click', toggleMenu, { passive: false });
+            
+            // タッチイベントのサポート（モバイルデバイス専用）
+            let touchStarted = false;
+            mobileMenuToggle.addEventListener('touchstart', function(e) {
+                touchStarted = true;
+                // タッチ開始時にデフォルトの動作を防ぐ
+                e.preventDefault();
+            }, { passive: false });
+            
+            mobileMenuToggle.addEventListener('touchend', function(e) {
+                if (touchStarted) {
+                    e.preventDefault();
+                    toggleMenu(e);
+                    touchStarted = false;
+                }
+            }, { passive: false });
+            
+            // タッチキャンセル時の処理
+            mobileMenuToggle.addEventListener('touchcancel', function() {
+                touchStarted = false;
+            }, { passive: true });
+            
+            // メニュー外クリックで閉じる
+            document.addEventListener('click', function(e) {
+                if (!mainNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                    mainNav.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    if (icon) {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                    mobileMenuToggle.setAttribute('aria-label', 'メニューを開く');
+                }
+            });
+            
+            // リンククリック時にメニューを閉じる
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    if (icon) {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                    mobileMenuToggle.setAttribute('aria-label', 'メニューを開く');
+                });
+            });
+        } else {
+            console.error('メニュー要素が見つかりません');
+        }
+    }, 100);
 
     // 動画のループ再生を確実にする
     const heroVideo = document.querySelector('.hero-video');
@@ -725,3 +794,6 @@ document.addEventListener('DOMContentLoaded', function() {
             characterData: false
         });
     }
+    
+    // 追加のデバッグコード（モバイルメニュー用）
+    console.log('Main.js loaded successfully');

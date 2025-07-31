@@ -9,18 +9,18 @@
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yuya-makiguchi.jp/news/2024-02-10-salmon-courtship/">
-    <meta property="og:title" content="サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました | 魚群行動計測学研究室 | Makiguchi Lab">
+    <meta property="og:title" content="サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました | 魚群行動計測学研究室 | Makiguchi Lab">
     <meta property="og:description" content="Makiguchi Lab at Nihon University. Behavioral ecology and bio-logging research on salmonid fishes.">
     <meta property="og:image" content="https://yuya-makiguchi.jp/img/salmon-hero.jpg">
     
     
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://yuya-makiguchi.jp/news/2024-02-10-salmon-courtship/">
-    <meta property="twitter:title" content="サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました | 魚群行動計測学研究室 | Makiguchi Lab">
+    <meta property="twitter:title" content="サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました | 魚群行動計測学研究室 | Makiguchi Lab">
     <meta property="twitter:description" content="Makiguchi Lab at Nihon University. Behavioral ecology and bio-logging research on salmonid fishes.">
     <meta property="twitter:image" content="https://yuya-makiguchi.jp/img/salmon-hero.jpg">
     
-    <title>サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました | 魚群行動計測学研究室 | Makiguchi Lab</title>
+    <title>サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました | 魚群行動計測学研究室 | Makiguchi Lab</title>
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -118,17 +118,17 @@
                     </div>
                     
                 </div>
-                <h1 class="article-title">サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました</h1>
+                <h1 class="article-title">サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました</h1>
                 
                 <div class="article-thumbnail">
-                    <img src="https://yuya-makiguchi.jp/img/2024-02-10-salmon-courtship.png" alt="サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました">
+                    <img src="https://yuya-makiguchi.jp/img/2024-02-10-salmon-courtship.png" alt="サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました">
                 </div>
                 
             </div>
             
             
             <div class="article-content">
-                <p>卒業生の関さんが主導したサケの繁殖行動に関する論文がEcology of Freshwater Fishにアクセプトされました。</p>
+                <p>サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました。</p>
 <p><strong>研究タイトル：</strong>
 &ldquo;Changes in courtship prior to oviposition in chum salmon (<i>Oncorhynchus keta</i>) and male preference for female body size&rdquo;</p>
 <h2 id="研究の背景と目的">研究の背景と目的</h2>
@@ -176,7 +176,7 @@
             </div>
             <div class="footer-section">
                 <h3><i class="fas fa-clock"></i> 最終更新</h3>
-                <p class="last-update">2025年7月17日</p>
+                <p class="last-update">2025年7月31日</p>
                 <p style="margin-top: 1rem;">
                     <a href="https://yuya-makiguchi.jp/sitemap/" style="color: var(--accent-sand);"><i class="fas fa-sitemap"></i> サイトマップ</a>
                 </p>
@@ -189,6 +189,7 @@
     
     
     <script src="https://yuya-makiguchi.jp/js/main.js"></script>
+    <script src="https://yuya-makiguchi.jp/js/mobile-menu-fix.js"></script>
     
     
     <script>
@@ -200,13 +201,15 @@
             const domain = footerEmailLink.getAttribute('data-domain');
             const email = user + '@' + domain;
             
-            footerEmailLink.addEventListener('click', function(e) {
+            const clickHandler = function(e) {
                 e.preventDefault();
                 footerEmailDisplay.textContent = email;
                 footerEmailLink.href = 'mailto:' + email;
                 
-                footerEmailLink.removeEventListener('click', arguments.callee);
-            });
+                footerEmailLink.removeEventListener('click', clickHandler);
+            };
+            
+            footerEmailLink.addEventListener('click', clickHandler);
         }
     });
     </script>

@@ -1,11 +1,11 @@
 ---
-title: "サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました"
+title: "サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました"
 date: 2024-02-10
 thumbnail: "/img/2024-02-10-salmon-courtship.png"
 categories: ["査読付き論文", "行動生態"]
 ---
 
-卒業生の関さんが主導したサケの繁殖行動に関する論文がEcology of Freshwater Fishにアクセプトされました。
+サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました。
 
 **研究タイトル：**
 "Changes in courtship prior to oviposition in chum salmon (<i>Oncorhynchus keta</i>) and male preference for female body size"

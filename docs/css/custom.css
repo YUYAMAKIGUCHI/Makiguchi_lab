@@ -113,13 +113,13 @@ h2::after {
 .site-branding {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1rem; /* ロゴとタイトルの間隔を適切に */
 }
 
 .site-logo {
   width: 45px;
   height: 45px;
-  background: var(--gradient-accent);
+  background: transparent; /* 背景を透明に */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -129,22 +129,26 @@ h2::after {
   color: white;
   font-size: 1.25rem;
   overflow: hidden;
+  flex-shrink: 0; /* ロゴのサイズを固定 */
 }
 
 .site-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
+  object-fit: contain; /* アスペクト比を保持 */
+  border-radius: 0; /* 円形にしない */
 }
 
 .site-title {
   font-family: var(--font-serif);
-  font-size: 1.4rem;
+  font-size: 1.2rem; /* 1.1remから1.2remに少し大きく調整 */
   font-weight: 600;
   color: var(--dark-forest);
   text-decoration: none;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em; /* 文字間を詰めて省スペースに */
+  white-space: nowrap; /* 改行を防ぐ */
+  overflow: hidden; /* はみ出しを隠す */
+  text-overflow: ellipsis; /* 長すぎる場合は省略記号を表示 */
 }
 
 /* ナビゲーション - デザインリッチスタイル */
@@ -164,13 +168,13 @@ h2::after {
   color: var(--text-secondary);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   position: relative;
-  padding: 0.7rem 0.8rem;
+  padding: 0.8rem 1rem;
   border-radius: 30px;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   background: transparent;
   overflow: hidden;
@@ -182,7 +186,7 @@ h2::after {
 .main-nav a::before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   opacity: 0.7;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: -0.25rem;
@@ -300,7 +304,7 @@ h2::after {
 
 .mobile-menu-toggle:hover {
   color: var(--primary-green);
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); 削除 - モバイルで問題を起こすため */
 }
 
 /* ヒーローセクション - インパクトのあるデザイン */
@@ -1551,6 +1555,18 @@ h2::after {
 }
 
 /* レスポンシブデザイン */
+/* 中間サイズのビューポート用 */
+@media (max-width: 1200px) {
+  .site-title {
+    font-size: 1.2rem; /* 中間サイズでも少し小さく */
+  }
+  
+  .main-nav a {
+    font-size: 0.85rem; /* ナビゲーションも少し小さく */
+    padding: 0.7rem 0.9rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header-container {
     flex-direction: row;

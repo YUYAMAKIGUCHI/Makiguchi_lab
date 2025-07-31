@@ -114,6 +114,7 @@
     
     <!-- JavaScript -->
     <script src="{{ .Site.BaseURL }}js/main.js"></script>
+    <script src="{{ .Site.BaseURL }}js/mobile-menu-fix.js"></script>
     
     <!-- フッターメールアドレスのスパム対策 -->
     <script>
@@ -125,13 +126,15 @@
             const domain = footerEmailLink.getAttribute('data-domain');
             const email = user + '@' + domain;
             
-            footerEmailLink.addEventListener('click', function(e) {
+            const clickHandler = function(e) {
                 e.preventDefault();
                 footerEmailDisplay.textContent = email;
                 footerEmailLink.href = 'mailto:' + email;
                 // 次回のクリックで通常のmailtoリンクとして動作
-                footerEmailLink.removeEventListener('click', arguments.callee);
-            });
+                footerEmailLink.removeEventListener('click', clickHandler);
+            };
+            
+            footerEmailLink.addEventListener('click', clickHandler);
         }
     });
     </script>

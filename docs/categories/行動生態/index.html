@@ -221,8 +221,8 @@
             <div class="list-item news-entry"
                  data-year="2024"
                  data-categories="査読付き論文 行動生態"
-                 data-title="サケの繁殖行動の論文がecology of freshwater fish誌にアクセプトされました"
-                 data-content="卒業生の関さんが主導したサケの繁殖行動に関する論文がecology of freshwater fishにアクセプトされました。
+                 data-title="サケの求愛行動に関する論文がecology of freshwater fish誌に掲載されました"
+                 data-content="サケの求愛行動に関する論文がecology of freshwater fish誌に掲載されました。
 研究タイトル： &amp;ldquo;changes in courtship prior to oviposition in chum salmon (oncorhynchus keta) and male preference for female body size&amp;rdquo;
 研究の背景と目的 サケの繁殖行動は、種の存続に直接関わる重要な生態学的プロセスです。本研究では、バイオロギング技術を用いて、産卵前の求愛行動の変化を詳細に記録・解析しました。
 主な発見 求愛行動の時間的変化：産卵が近づくにつれて、オスの求愛行動の頻度と強度が変化 個体差の要因：体サイズや繁殖経験が求愛戦略に影響 環境要因の影響：水温や流速が行動パターンに与える影響を定量化 研究の意義 この研究は、サケの繁殖成功に影響する要因の理解を深め、効果的な資源管理策の立案に貢献します。特に、気候変動下での繁殖行動の変化予測に重要な知見を提供します。
@@ -231,7 +231,7 @@
                 <a href="https://yuya-makiguchi.jp/news/2024-02-10-salmon-courtship/" class="news-tile">
                     <div class="news-tile-image">
                         
-                        <img src="https://yuya-makiguchi.jp/img/2024-02-10-salmon-courtship.png" alt="サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました">
+                        <img src="https://yuya-makiguchi.jp/img/2024-02-10-salmon-courtship.png" alt="サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました">
                         
                         <div class="news-tile-overlay">
                             <span class="read-more">詳しく見る <i class="fas fa-arrow-right"></i></span>
@@ -242,7 +242,7 @@
                             <i class="far fa-calendar"></i>
                             2024.02.10
                         </div>
-                        <h3 class="news-tile-title">サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました</h3>
+                        <h3 class="news-tile-title">サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました</h3>
                         
                         <div class="news-tile-categories">
                             
@@ -302,7 +302,7 @@
             </div>
             <div class="footer-section">
                 <h3><i class="fas fa-clock"></i> 最終更新</h3>
-                <p class="last-update">2025年7月17日</p>
+                <p class="last-update">2025年7月31日</p>
                 <p style="margin-top: 1rem;">
                     <a href="https://yuya-makiguchi.jp/sitemap/" style="color: var(--accent-sand);"><i class="fas fa-sitemap"></i> サイトマップ</a>
                 </p>
@@ -315,6 +315,7 @@
     
     
     <script src="https://yuya-makiguchi.jp/js/main.js"></script>
+    <script src="https://yuya-makiguchi.jp/js/mobile-menu-fix.js"></script>
     
     
     <script>
@@ -326,13 +327,15 @@
             const domain = footerEmailLink.getAttribute('data-domain');
             const email = user + '@' + domain;
             
-            footerEmailLink.addEventListener('click', function(e) {
+            const clickHandler = function(e) {
                 e.preventDefault();
                 footerEmailDisplay.textContent = email;
                 footerEmailLink.href = 'mailto:' + email;
                 
-                footerEmailLink.removeEventListener('click', arguments.callee);
-            });
+                footerEmailLink.removeEventListener('click', clickHandler);
+            };
+            
+            footerEmailLink.addEventListener('click', clickHandler);
         }
     });
     </script>

@@ -147,7 +147,7 @@
                     
                     <li>
                         <a href="https://yuya-makiguchi.jp/news/2024-02-10-salmon-courtship/">
-                            <i class="fas fa-newspaper"></i> サケの繁殖行動の論文がEcology of Freshwater Fish誌にアクセプトされました
+                            <i class="fas fa-newspaper"></i> サケの求愛行動に関する論文がEcology of Freshwater Fish誌に掲載されました
                             <span class="sitemap-date">(2024年2月10日)</span>
                         </a>
                     </li>
@@ -325,7 +325,7 @@
             </div>
             <div class="footer-section">
                 <h3><i class="fas fa-clock"></i> 最終更新</h3>
-                <p class="last-update">2025年7月17日</p>
+                <p class="last-update">2025年7月31日</p>
                 <p style="margin-top: 1rem;">
                     <a href="https://yuya-makiguchi.jp/sitemap/" style="color: var(--accent-sand);"><i class="fas fa-sitemap"></i> サイトマップ</a>
                 </p>
@@ -338,6 +338,7 @@
     
     
     <script src="https://yuya-makiguchi.jp/js/main.js"></script>
+    <script src="https://yuya-makiguchi.jp/js/mobile-menu-fix.js"></script>
     
     
     <script>
@@ -349,13 +350,15 @@
             const domain = footerEmailLink.getAttribute('data-domain');
             const email = user + '@' + domain;
             
-            footerEmailLink.addEventListener('click', function(e) {
+            const clickHandler = function(e) {
                 e.preventDefault();
                 footerEmailDisplay.textContent = email;
                 footerEmailLink.href = 'mailto:' + email;
                 
-                footerEmailLink.removeEventListener('click', arguments.callee);
-            });
+                footerEmailLink.removeEventListener('click', clickHandler);
+            };
+            
+            footerEmailLink.addEventListener('click', clickHandler);
         }
     });
     </script>
