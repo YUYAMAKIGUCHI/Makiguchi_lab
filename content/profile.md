@@ -65,3 +65,10 @@ email: "makiguchi.yuya@nihon-u.ac.jp"
 - [researchmap](https://researchmap.jp/read0151555)
 - [ORCID](https://orcid.org/0000-0001-8148-9394)
 - [日本大学研究者情報システム](https://researcher-web.nihon-u.ac.jp/search/detail?systemId=eb783d99eabcffb969a2d2a29c395269&lang=ja)
+
+## 助成金
+
+- [科学研究費補助金（科研費）](https://nrid.nii.ac.jp/ja/nrid/1000000584153/)
+- 「魚類の回帰・固執行動を最終目標とした神経ロガーの開発」、2011年笹川科学研究助成
+- 「一回繁殖型魚類の配偶子レベルで起こる配偶者選択と繁殖成功の解明」、2014年住友財団基礎科学研究助成
+- 「長距離ナビゲーション動物が獲得した超感覚統合メカニズムの解明」、CREST 2023-（分担）
