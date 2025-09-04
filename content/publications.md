@@ -9,6 +9,12 @@ draft: false
 ### 2025年
 
 <div class="publication-item">
+    <div class="publication-title">Adaptive aggregation behavior of the scallop <i>Mizuhopecten yessoensis</i> in response to predation risk</div>
+    <div class="publication-authors">Miyoshi, K., Yamazaki, C., Hirao S., <strong><u>Makiguchi, Y.</u></strong></div>
+    <div class="publication-journal">Marine Biology (in press)</div>
+</div>
+
+<div class="publication-item">
     <div class="publication-title">Novel insights into sex-specific differences in heart rate variability and autonomic nervous system regulation during spawning behavior in chum salmon (<i>Oncorhynchus keta</i>) revealed by re-analysis of ECG logger data</div>
     <div class="publication-authors"><strong><u>Makiguchi, Y.</u></strong>, Abe, T.K., Ichimura, M.</div>
     <div class="publication-journal">Frontiers in Physiology Volume 16 - 2025</div>
