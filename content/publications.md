@@ -11,7 +11,10 @@ draft: false
 <div class="publication-item">
     <div class="publication-title">Adaptive aggregation behavior of the scallop <i>Mizuhopecten yessoensis</i> in response to predation risk</div>
     <div class="publication-authors">Miyoshi, K., Yamazaki, C., Hirao S., <strong><u>Makiguchi, Y.</u></strong></div>
-    <div class="publication-journal">Marine Biology (in press)</div>
+    <div class="publication-journal">Marine Biology Volume 172, article number 159, (2025)</div>
+    <div class="publication-meta">
+        <span class="publication-doi"><i class="fas fa-link"></i> DOI: <a href="https://doi.org/10.1007/s00227-025-04731-3" target="_blank">10.1007/s00227-025-04731-3</a></span>
+    </div>
 </div>
 
 <div class="publication-item">

@@ -4,135 +4,15 @@ date: 2025-01-03
 draft: false
 ---
 
-## 国際学会
-
-### 2014年
-
-<div class="presentation-item">
-    <div class="presentation-title">Sperm economy in semelparous salmonid species, chum salmon</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kojima, T.</div>
-    <div class="presentation-conference">The 5th Bio-logging Science Symposium, 22-27 Sep 2014 Strasbourg, France</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Sperm economy associated with paired female size in semelparous salmonid species</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kitagawa, T., Kojima, T.</div>
-    <div class="presentation-conference">Animal Behavior Society 2014 Conference, 9-13 August 2014, Princeton, USA</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Sperm economy in relation to paired female size in semelparous salmonid species</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kawabata, Y., Kitagawa, T., Kojima, T.</div>
-    <div class="presentation-conference">The 2nd Design Symposium on Conservation of Ecosystem(SEASTAR2000), 18-19 March 2014, Kyoto, Japan</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-### 2011年
-
-<div class="presentation-item">
-    <div class="presentation-title">Physiological biotelemetry study on migratory behavior in salmon</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong></div>
-    <div class="presentation-conference">The Akiyama Life Science Foundation 25th Anniversary Public Lectures of 1st International Conference on Fish Telemetry Mystery of Fish Migration: Salmon, Eel, Lamprey, and Tuna, 18 June 2011, Sapporo, Japan</div>
-    <div class="presentation-type">口頭発表 (招待講演)</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Movement patterns and habitat use of Formosan landlocked salmon in the Chichiawan stream, Taiwan assessed by nano-tag radio telemetry</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> and Ueda, H.</div>
-    <div class="presentation-conference">International Conference on Taiwan Salmon Environmental Education, 11-15 June 2011, Taipei, Taiwan</div>
-    <div class="presentation-type">口頭発表(招待講演)</div>
-</div>
-
-### 2009年
-
-<div class="presentation-item">
-    <div class="presentation-title">Biotelemetry study on movement and habitat use of Formosan landlocked salmon (Oncorhynchus masou formosanus) and masu salmon (O. masou)</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Liao, L.Y., Nii, H., Nakao, K., Gwo, J.C., Huang, Y.S., Ueda, H.</div>
-    <div class="presentation-conference">1st International Formosa Landlocked Salmon and Masu Salmon Symposium, 22-26 October 2009, Taipei, Taiwan</div>
-    <div class="presentation-type">口頭発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Comparison of sex-specific swimming energetics during adult migration in pink salmon</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">8th Conference of Fish Telemetry held in Europe 14-18 Sep, 2009, Umea, Sweden</div>
-    <div class="presentation-type">口頭発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">CARDIAC ARREST OF SPAWNING CHUM SALMON RECORDED BY ELECTROCARDIOGRAM (ECG) DATALOGGER</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Kojima, T., Ueda, H.</div>
-    <div class="presentation-conference">XXXVIth International Union of Physiological Sciences (IUPS), July 27 – August1, 2009, Kyoto, Japan</div>
-    <div class="presentation-type">口頭発表</div>
-</div>
-
-### 2008年
-
-<div class="presentation-item">
-    <div class="presentation-title">Energy use and swimming behavior of pink salmon during upstream migration in the reconstructed segment of the Shibetsu River, Japan assessed by electromyogram (EMG) transmitter</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">5th World Fisheries Congress (WFC 2008) 20-24 October, 2008, Yokohama, Japan</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Cardiac performance in chum salmon during spawning behaviour recorded by electrocardiogram (ECG) dataloggers</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Ueda, H.</div>
-    <div class="presentation-conference">3rd International Biologging Science Symposium 1-5 September, 2008, Pacific Grove, CA, USA</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-### 2007年
-
-<div class="presentation-item">
-    <div class="presentation-title">Effects of river meander restoration on upstream migration of chum salmon in the Shibetsu River</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">Japan-China biologging science symposium JC-BLOSS November 6-7, 2007, Wuhan, Hubei, China</div>
-    <div class="presentation-type">口頭発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">The energetic cost of chum salmon during upstream migration in the Shibetsu River</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">7th Conference of Fish Telemetry held in Europe 17-21 June, 2007, Silkeborg, Denmark</div>
-    <div class="presentation-type">口頭発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Effects of the reconstruction in the Shibetsu River on upstream migration behavior of chum salmon assessed by EMG radio telemetry</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, H.Nii, K. Nakao, Ueda, H.</div>
-    <div class="presentation-conference">8th International Symposium on Reproductive Physiology of Fish (8th ISRPF 2007) 3-8 June, 2007, Saint-Malo, France</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-### 2006年
-
-<div class="presentation-item">
-    <div class="presentation-title">Behavioral study on upstream migration of chum salmon in Shibetsu River</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda,H.</div>
-    <div class="presentation-conference">7th International Congress on the Biology of Fish 18-22 July, 2006, St John's, Newfoundland, Canada</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-### 2005年
-
-<div class="presentation-item">
-    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">6th Conference on Fish Telemetry held in Europe 5-11 June, 2005, Sesimbra, Portugal</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
-
-<div class="presentation-item">
-    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
-    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> Nii, H., Nakao, K., Ueda, H.</div>
-    <div class="presentation-conference">21st COE program：Marine Bio-Manipulation Frontier for Food Production Toward Advanced and Safe Use of Aquatic Organisms1st International Symposium, 26-27 February, 2005, Sapporo, Japan</div>
-    <div class="presentation-type">ポスター発表</div>
-</div>
 
 ## 国内学会
+
+<div class="presentation-item">
+    <div class="presentation-title">サケの求愛行動分析：産卵前変化における「接近距離」の重要性</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong>（日本大学）</div>
+    <div class="presentation-conference">第20回日本バイオログング研究会シンポジウム、長崎大学文教キャンパス・文教スカイホール、令和7年10月11-13日</div>
+    <div class="presentation-type">招待講演</div>
+</div>
 
 <div class="presentation-item">
     <div class="presentation-title">夏季ベーリング海におけるサケの回遊行動</div>
@@ -184,6 +64,13 @@ draft: false
 </div>
 
 <div class="presentation-item">
+    <div class="presentation-title">時間とともに変化するオスのシロザケの求愛行動</div>
+    <div class="presentation-authors">関恭佑、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">令和3年度日本水産学会水産学若手の会イベント「オンライン」ナイトポスターセッション、令和3年9月</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
     <div class="presentation-title">サクラマスの雌が複数雄の精子から享受する利益の検証</div>
     <div class="presentation-authors"><strong><u>牧口祐也</u></strong>、小島隆人</div>
     <div class="presentation-conference">令和2年度日本水産学会春季大会、東京海洋大学、令和2年3月26日- 3月30日</div>
@@ -219,7 +106,7 @@ draft: false
 </div>
 
 <div class="presentation-item">
-    <div class="presentation-title">シシャモの臨海遊泳速度</div>
+    <div class="presentation-title">シシャモの臨界遊泳速度</div>
     <div class="presentation-authors">新居久也、<strong><u>牧口祐也</u></strong>、宮川椋、上田宏</div>
     <div class="presentation-conference">平成30年度日本水産学会秋季大会、広島大学、平成30年9月15日- 9月18日</div>
     <div class="presentation-type">口頭発表</div>
@@ -804,3 +691,133 @@ draft: false
     <div class="presentation-conference">魚の研究交流会2005、北海道立孵化場　本場（恵庭）、平成17年2月</div>
     <div class="presentation-type">ポスター発表</div>
 </div>
+
+
+## 国際学会
+
+### 2014年
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy in semelparous salmonid species, chum salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kojima, T.</div>
+    <div class="presentation-conference">The 5th Bio-logging Science Symposium, 22-27 Sep 2014 Strasbourg, France</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy associated with paired female size in semelparous salmonid species</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kitagawa, T., Kojima, T.</div>
+    <div class="presentation-conference">Animal Behavior Society 2014 Conference, 9-13 August 2014, Princeton, USA</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Sperm economy in relation to paired female size in semelparous salmonid species</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Ichimura, M., Kitayama, T., Nemoto, T., Kawabata, Y., Kitagawa, T., Kojima, T.</div>
+    <div class="presentation-conference">The 2nd Design Symposium on Conservation of Ecosystem(SEASTAR2000), 18-19 March 2014, Kyoto, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2011年
+
+<div class="presentation-item">
+    <div class="presentation-title">Physiological biotelemetry study on migratory behavior in salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong></div>
+    <div class="presentation-conference">The Akiyama Life Science Foundation 25th Anniversary Public Lectures of 1st International Conference on Fish Telemetry Mystery of Fish Migration: Salmon, Eel, Lamprey, and Tuna, 18 June 2011, Sapporo, Japan</div>
+    <div class="presentation-type">口頭発表 (招待講演)</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Movement patterns and habitat use of Formosan landlocked salmon in the Chichiawan stream, Taiwan assessed by nano-tag radio telemetry</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> and Ueda, H.</div>
+    <div class="presentation-conference">International Conference on Taiwan Salmon Environmental Education, 11-15 June 2011, Taipei, Taiwan</div>
+    <div class="presentation-type">口頭発表(招待講演)</div>
+</div>
+
+### 2009年
+
+<div class="presentation-item">
+    <div class="presentation-title">Biotelemetry study on movement and habitat use of Formosan landlocked salmon (Oncorhynchus masou formosanus) and masu salmon (O. masou)</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Liao, L.Y., Nii, H., Nakao, K., Gwo, J.C., Huang, Y.S., Ueda, H.</div>
+    <div class="presentation-conference">1st International Formosa Landlocked Salmon and Masu Salmon Symposium, 22-26 October 2009, Taipei, Taiwan</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Comparison of sex-specific swimming energetics during adult migration in pink salmon</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">8th Conference of Fish Telemetry held in Europe 14-18 Sep, 2009, Umea, Sweden</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">CARDIAC ARREST OF SPAWNING CHUM SALMON RECORDED BY ELECTROCARDIOGRAM (ECG) DATALOGGER</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Kojima, T., Ueda, H.</div>
+    <div class="presentation-conference">XXXVIth International Union of Physiological Sciences (IUPS), July 27 – August1, 2009, Kyoto, Japan</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+### 2008年
+
+<div class="presentation-item">
+    <div class="presentation-title">Energy use and swimming behavior of pink salmon during upstream migration in the reconstructed segment of the Shibetsu River, Japan assessed by electromyogram (EMG) transmitter</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">5th World Fisheries Congress (WFC 2008) 20-24 October, 2008, Yokohama, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Cardiac performance in chum salmon during spawning behaviour recorded by electrocardiogram (ECG) dataloggers</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Konno, Y., Ichimura, M., Nagata, S., Murata, H., Ueda, H.</div>
+    <div class="presentation-conference">3rd International Biologging Science Symposium 1-5 September, 2008, Pacific Grove, CA, USA</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2007年
+
+<div class="presentation-item">
+    <div class="presentation-title">Effects of river meander restoration on upstream migration of chum salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">Japan-China biologging science symposium JC-BLOSS November 6-7, 2007, Wuhan, Hubei, China</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">The energetic cost of chum salmon during upstream migration in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">7th Conference of Fish Telemetry held in Europe 17-21 June, 2007, Silkeborg, Denmark</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Effects of the reconstruction in the Shibetsu River on upstream migration behavior of chum salmon assessed by EMG radio telemetry</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, H.Nii, K. Nakao, Ueda, H.</div>
+    <div class="presentation-conference">8th International Symposium on Reproductive Physiology of Fish (8th ISRPF 2007) 3-8 June, 2007, Saint-Malo, France</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2006年
+
+<div class="presentation-item">
+    <div class="presentation-title">Behavioral study on upstream migration of chum salmon in Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda,H.</div>
+    <div class="presentation-conference">7th International Congress on the Biology of Fish 18-22 July, 2006, St John's, Newfoundland, Canada</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+### 2005年
+
+<div class="presentation-item">
+    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong>, Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">6th Conference on Fish Telemetry held in Europe 5-11 June, 2005, Sesimbra, Portugal</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">Upstream migration of adult chum and pink salmon in the Shibetsu River</div>
+    <div class="presentation-authors"><strong><u>Makiguchi, Y.</u></strong> Nii, H., Nakao, K., Ueda, H.</div>
+    <div class="presentation-conference">21st COE program：Marine Bio-Manipulation Frontier for Food Production Toward Advanced and Safe Use of Aquatic Organisms1st International Symposium, 26-27 February, 2005, Sapporo, Japan</div>
+    <div class="presentation-type">ポスター発表</div>
+</div>
+
