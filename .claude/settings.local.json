@@ -4,7 +4,8 @@
       "Bash(hugo -d docs)",
       "Bash(hugo)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
