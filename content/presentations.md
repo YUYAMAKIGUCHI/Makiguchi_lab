@@ -8,6 +8,20 @@ draft: false
 ## 国内学会
 
 <div class="presentation-item">
+    <div class="presentation-title">水中マイクを用いたサケの求愛行動の振動分析</div>
+    <div class="presentation-authors">○亀川大和（日大生物資源）、手嶋優風（JAMSTEC）、阿部貴晃（日大生物資源）、市村政樹（標津サーモン科学館）、<strong><u>牧口祐也</u></strong>（日大生物資源）</div>
+    <div class="presentation-conference">日本水産学会春季大会、令和8年3月26-29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">サクラマス稚魚における野生魚と半野生魚の代謝比較</div>
+    <div class="presentation-authors">○奈木野雄一、阿部貴晃（日大生物資源）、佐藤正人、松山大志郎（秋田水振セ）、<strong><u>牧口祐也</u></strong>（日大生物資源）</div>
+    <div class="presentation-conference">日本水産学会春季大会、令和8年3月26-29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
     <div class="presentation-title">サケの求愛行動分析：産卵前変化における「接近距離」の重要性</div>
     <div class="presentation-authors"><strong><u>牧口祐也</u></strong>（日本大学）</div>
     <div class="presentation-conference">第20回日本バイオログング研究会シンポジウム、長崎大学文教キャンパス・文教スカイホール、令和7年10月11-13日</div>
@@ -22,10 +36,24 @@ draft: false
 </div>
 
 <div class="presentation-item">
+    <div class="presentation-title">水温と餌環境がシシャモのエネルギー配分量に及ぼす影響</div>
+    <div class="presentation-authors">河野祐太、牧優花、岡田のぞみ、阿部貴晃、<strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">日本水産学会春季大会、北里大学相模原キャンパス、令和7年3月26-29日</div>
+    <div class="presentation-type">口頭発表</div>
+</div>
+
+<div class="presentation-item">
     <div class="presentation-title">ホタテガイは群れて身を守る?～二枚貝の集団形成による捕食回避機構</div>
     <div class="presentation-authors">三好晃治（中央水試）、山﨑 千登勢（網走水試）、富山 嶺（中央水試）、<strong><u>牧口祐也</u></strong></div>
     <div class="presentation-conference">日本動物行動学会第42回大会プログラム, P-075、令和5年11月14日</div>
     <div class="presentation-type">ポスター発表</div>
+</div>
+
+<div class="presentation-item">
+    <div class="presentation-title">シシャモの代謝率と資源量解析から紐解く至適水温の解明</div>
+    <div class="presentation-authors"><strong><u>牧口祐也</u></strong></div>
+    <div class="presentation-conference">道総研セミナー、北海道総合研究機構栽培水産試験場、令和5年7月26日</div>
+    <div class="presentation-type">口頭発表</div>
 </div>
 
 <div class="presentation-item">
