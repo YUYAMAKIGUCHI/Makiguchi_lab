@@ -448,7 +448,9 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>makiguchi.yuya@nihon-u.ac.jp</span>
+                    <a href="#" id="media-email-link" data-user="makiguchi.yuya" data-domain="nihon-u.ac.jp" style="color: var(--primary-green); text-decoration: none; cursor: pointer;">
+                        <span id="media-email-display">[メールアドレスを表示]</span>
+                    </a>
                 </div>
             </div>
             
@@ -465,6 +467,24 @@
         </div>
     </article>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const emailLink = document.getElementById('media-email-link');
+    const emailDisplay = document.getElementById('media-email-display');
+    if (emailLink && emailDisplay) {
+        const user = emailLink.getAttribute('data-user');
+        const domain = emailLink.getAttribute('data-domain');
+        const email = user + '@' + domain;
+        emailLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            emailDisplay.textContent = email;
+            emailLink.href = 'mailto:' + email;
+            emailLink.removeEventListener('click', arguments.callee);
+        });
+    }
+});
+</script>
 
 <style>
 .contact-info {
