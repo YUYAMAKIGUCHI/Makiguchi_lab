@@ -5,7 +5,10 @@
       "Bash(hugo)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(hugo version *)",
+      "Bash(hugo --minify -d docs)",
+      "Bash(python -c 'from PIL import Image; import os *)"
     ]
   }
 }

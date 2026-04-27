@@ -1,6 +1,7 @@
 ---
 title: "科研費 基盤研究(B)に採択されました"
 date: 2026-04-27
+thumbnail: "/img/2026-04-27-kakenhi-kiban-b.svg"
 categories: ["お知らせ", "科研費", "腸内細菌", "放流魚"]
 ---
 
