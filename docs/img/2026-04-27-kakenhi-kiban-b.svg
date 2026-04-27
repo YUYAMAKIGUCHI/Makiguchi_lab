@@ -43,14 +43,6 @@
     <!-- グロー -->
     <ellipse cx="0" cy="40" rx="620" ry="80" fill="#000" opacity="0.18" filter="url(#soft)"/>
 
-    <!-- リボン（採択バッジ） -->
-    <g transform="translate(-560 -310)">
-      <path d="M 0 0 L 220 0 L 200 50 L 220 100 L 0 100 Z" fill="url(#ribbon)"/>
-      <text x="110" y="62" text-anchor="middle"
-            font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
-            font-size="36" font-weight="700" fill="#2C4A3D" letter-spacing="2">採 択</text>
-    </g>
-
     <!-- メインタイトル -->
     <text x="0" y="-220" text-anchor="middle"
           font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
