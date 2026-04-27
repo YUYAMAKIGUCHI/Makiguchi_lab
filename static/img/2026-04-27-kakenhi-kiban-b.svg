@@ -52,24 +52,27 @@
     </g>
 
     <!-- メインタイトル -->
-    <text x="0" y="-150" text-anchor="middle"
+    <text x="0" y="-220" text-anchor="middle"
           font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
-          font-size="72" font-weight="500" fill="#FBF8F3" letter-spacing="8">JSPS 科学研究費助成事業</text>
+          font-size="78" font-weight="600" fill="#FBF8F3" letter-spacing="8">JSPS 科学研究費助成事業</text>
 
-    <text x="0" y="-30" text-anchor="middle"
+    <text x="0" y="-110" text-anchor="middle"
           font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
-          font-size="160" font-weight="800" fill="#FBF8F3" letter-spacing="6">基盤研究(B)</text>
+          font-size="64" font-weight="500" fill="#E5D4B8" letter-spacing="10">基盤研究 ( B )</text>
 
     <!-- 区切り線 -->
-    <line x1="-340" y1="40" x2="340" y2="40" stroke="#E5D4B8" stroke-width="3"/>
+    <line x1="-340" y1="-50" x2="340" y2="-50" stroke="#E5D4B8" stroke-width="3"/>
 
     <!-- 課題名 -->
+    <text x="0" y="40" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="62" font-weight="700" fill="#FBF8F3" letter-spacing="4">野生魚の腸内細菌が拓く</text>
     <text x="0" y="120" text-anchor="middle"
           font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
-          font-size="48" font-weight="500" fill="#FBF8F3" letter-spacing="2">野生魚の腸内細菌が拓く放流魚の環境適応</text>
-    <text x="0" y="190" text-anchor="middle"
+          font-size="62" font-weight="700" fill="#FBF8F3" letter-spacing="4">放流魚の環境適応</text>
+    <text x="0" y="200" text-anchor="middle"
           font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
-          font-size="38" font-weight="400" fill="#E5D4B8" letter-spacing="2">― 生態系保全のための科学基盤 ―</text>
+          font-size="40" font-weight="400" fill="#E5D4B8" letter-spacing="3">― 生態系保全のための科学基盤 ―</text>
 
     <!-- 研究室名 -->
     <text x="0" y="320" text-anchor="middle"
