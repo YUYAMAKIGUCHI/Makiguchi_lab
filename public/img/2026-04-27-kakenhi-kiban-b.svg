@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-label="科研費 基盤研究(B) 採択">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2C4A3D"/>
+      <stop offset="55%" stop-color="#6B8E5C"/>
+      <stop offset="100%" stop-color="#9CAF88"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E5D4B8"/>
+      <stop offset="100%" stop-color="#C8956B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#FBF8F3" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FBF8F3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+  <rect width="1536" height="1024" fill="url(#glow)"/>
+
+  <!-- 装飾的な円（バブル/腸内細菌のイメージ） -->
+  <g opacity="0.18" fill="#FBF8F3">
+    <circle cx="180" cy="180" r="70"/>
+    <circle cx="1380" cy="220" r="55"/>
+    <circle cx="1420" cy="820" r="90"/>
+    <circle cx="120" cy="880" r="45"/>
+    <circle cx="1280" cy="120" r="22"/>
+    <circle cx="260" cy="780" r="30"/>
+  </g>
+
+  <!-- 波線（魚/水のイメージ） -->
+  <g stroke="#FBF8F3" stroke-opacity="0.22" stroke-width="3" fill="none">
+    <path d="M 0 940 Q 192 900 384 940 T 768 940 T 1152 940 T 1536 940"/>
+    <path d="M 0 980 Q 192 950 384 980 T 768 980 T 1152 980 T 1536 980"/>
+  </g>
+
+  <!-- 中央カード -->
+  <g transform="translate(768 512)">
+    <!-- グロー -->
+    <ellipse cx="0" cy="40" rx="620" ry="80" fill="#000" opacity="0.18" filter="url(#soft)"/>
+
+    <!-- メインタイトル -->
+    <text x="0" y="-220" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="78" font-weight="600" fill="#FBF8F3" letter-spacing="8">JSPS 科学研究費助成事業</text>
+
+    <text x="0" y="-110" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="64" font-weight="500" fill="#E5D4B8" letter-spacing="10">基盤研究 ( B )</text>
+
+    <!-- 区切り線 -->
+    <line x1="-340" y1="-50" x2="340" y2="-50" stroke="#E5D4B8" stroke-width="3"/>
+
+    <!-- 課題名 -->
+    <text x="0" y="40" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="62" font-weight="700" fill="#FBF8F3" letter-spacing="4">野生魚の腸内細菌が拓く</text>
+    <text x="0" y="120" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="62" font-weight="700" fill="#FBF8F3" letter-spacing="4">放流魚の環境適応</text>
+    <text x="0" y="200" text-anchor="middle"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif"
+          font-size="40" font-weight="400" fill="#E5D4B8" letter-spacing="3">― 生態系保全のための科学基盤 ―</text>
+
+    <!-- 研究室名 -->
+    <text x="0" y="320" text-anchor="middle"
+          font-family="'Inter','Noto Sans JP',sans-serif"
+          font-size="32" font-weight="500" fill="#FBF8F3" opacity="0.85" letter-spacing="4">Makiguchi Lab  |  Nihon University</text>
+  </g>
+</svg>

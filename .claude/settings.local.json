@@ -8,7 +8,18 @@
       "Bash(git push:*)",
       "Bash(hugo version *)",
       "Bash(hugo --minify -d docs)",
-      "Bash(python -c 'from PIL import Image; import os *)"
+      "Bash(python -c 'from PIL import Image; import os *)",
+      "WebFetch(domain:yuya-makiguchi.jp)",
+      "Bash(python3 -c \"print\\('test'\\)\")",
+      "Bash(python -c \"print\\('ok'\\)\")",
+      "Bash(python gen_csv.py)",
+      "Bash(python -c ' *)",
+      "WebFetch(domain:researchmap.jp)",
+      "Bash(python)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:animalbiotelemetry.biomedcentral.com)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:api.crossref.org)"
     ]
   }
 }

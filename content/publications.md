@@ -6,6 +6,17 @@ draft: false
 
 ## 査読付き論文
 
+### 2026年
+
+<div class="publication-item">
+    <div class="publication-title">Case Report: Oceanic migratory behavior of chum salmon in the Bering Sea during summer using a pop-up satellite archival tag</div>
+    <div class="publication-authors">Abe, T.K., Honda, K., Iino, Y., Sato, T., Oba, S., <strong><u>Makiguchi, Y.</u></strong>, Takahashi, S., Kitagawa, T.</div>
+    <div class="publication-journal">Animal Biotelemetry Volume 14, article number 13, (2026)</div>
+    <div class="publication-meta">
+        <span class="publication-doi"><i class="fas fa-link"></i> DOI: <a href="https://doi.org/10.1186/s40317-026-00454-4" target="_blank">10.1186/s40317-026-00454-4</a></span>
+    </div>
+</div>
+
 ### 2025年
 
 <div class="publication-item">

@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://yuya-makiguchi.jp/ja/categories/</loc><xhtml:link rel="alternate" hreflang="en" href="https://yuya-makiguchi.jp/categories/"/><xhtml:link rel="alternate" hreflang="ja" href="https://yuya-makiguchi.jp/ja/categories/"/></url><url><loc>https://yuya-makiguchi.jp/ja/tags/</loc><xhtml:link rel="alternate" hreflang="en" href="https://yuya-makiguchi.jp/tags/"/><xhtml:link rel="alternate" hreflang="ja" href="https://yuya-makiguchi.jp/ja/tags/"/></url><url><loc>https://yuya-makiguchi.jp/ja/</loc><xhtml:link rel="alternate" hreflang="en" href="https://yuya-makiguchi.jp/"/><xhtml:link rel="alternate" hreflang="ja" href="https://yuya-makiguchi.jp/ja/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yuya-makiguchi.jp/ja/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yuya-makiguchi.jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yuya-makiguchi.jp/ja/categories/"
+                />
+  </url><url>
+    <loc>https://yuya-makiguchi.jp/ja/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yuya-makiguchi.jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yuya-makiguchi.jp/ja/tags/"
+                />
+  </url><url>
+    <loc>https://yuya-makiguchi.jp/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yuya-makiguchi.jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yuya-makiguchi.jp/ja/"
+                />
+  </url>
+</urlset>
