@@ -295,7 +295,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">旅する動物図鑑③海の生きもの、筑摩書房、20-21</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2019</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2019年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -303,7 +303,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">魚類学の百科事典、丸善出版、284-285</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2018</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2018年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -311,7 +311,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">魚類学の百科事典、丸善出版、31</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2018</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2018年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -319,7 +319,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">生物の科学 遺伝、株式会社エヌ・ティー・エス、第72巻 第3号 282-285</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2018</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2018年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -327,7 +327,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">バイオロギング２　動物たちの知られざる世界を探る、京都通信社、24-28</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2016</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2016年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -335,7 +335,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u></strong></div>
     <div class="publication-journal">恒星社厚生閣、103-106</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2014</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2014年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -343,7 +343,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u>、新居久也、中尾勝哉、上田宏</strong></div>
     <div class="publication-journal">川の蛇行復元-水理・物質循環・生態系からの評価-、技報堂出版、141-163</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2011</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2011年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -351,7 +351,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u>、上田宏</strong></div>
     <div class="publication-journal">京都通信社、106</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2009</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2009年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -359,7 +359,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u>、上田宏</strong></div>
     <div class="publication-journal">京都通信社、98-101</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2009</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2009年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -367,7 +367,7 @@ draft: false
     <div class="publication-authors"><strong><u>Makiguchi, Y.</u>, Konno,Y., Nii, H., Nakao, K., Ueda, H.</strong></div>
     <div class="publication-journal">Telemetry research and application, Chapter6, NOVA Publishers, New York, 145-174</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2009</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2009年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -375,7 +375,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u>、新居久也、中尾勝哉、上田宏</strong></div>
     <div class="publication-journal">海洋と生物　2008 (175) Vol30. No2 150-156</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2008</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2008年</span>
     </div>
 </div>
 <div class="publication-item">
@@ -383,7 +383,7 @@ draft: false
     <div class="publication-authors"><strong><u>牧口祐也</u>、永田鎮也、村田秀樹、小島隆人、上田宏</strong></div>
     <div class="publication-journal">海洋と生物　2008 (175) Vol30. No2 144-149</div>
     <div class="publication-meta">
-        <span class="publication-year"><i class="fas fa-calendar"></i> 2008</span>
+        <span class="publication-year publication-year-visible"><i class="fas fa-calendar"></i> 2008年</span>
     </div>
 </div>
 

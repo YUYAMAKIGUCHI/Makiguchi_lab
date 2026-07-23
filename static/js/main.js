@@ -522,6 +522,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setupYearFilter(newsItems);
     };
     */
+    };
     
     // 以下の関数もnews-list.jsに移行したため無効化
     /*
@@ -695,7 +696,33 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     console.log('動画リンクをリセットするには、コンソールで resetVideoLink() を実行してください');
     
-    // 論文リストの番号付け管理機能（改良版）
+    // 各大分類の論文を古いものから数え、最新の番号を最大にする
+    const updatePublicationNumbers = () => {
+        const publicationsContent = document.querySelector('.content-section .article-content');
+        if (!publicationsContent || !window.location.pathname.includes('publications')) {
+            return;
+        }
+
+        let sectionItems = [];
+        const applyNumbers = () => {
+            const itemCount = sectionItems.length;
+            sectionItems.forEach((item, index) => {
+                item.setAttribute('data-publication-number', (itemCount - index).toString().padStart(2, '0'));
+            });
+        };
+
+        Array.from(publicationsContent.children).forEach(element => {
+            if (element.tagName === 'H2') {
+                applyNumbers();
+                sectionItems = [];
+            } else if (element.classList.contains('publication-item')) {
+                sectionItems.push(element);
+            }
+        });
+        applyNumbers();
+    };
+
+    // 論文リストの番号付け管理機能
     const initializePublications = () => {
         // 論文ページでのみ実行
         const publicationsPage = document.querySelector('.content-section');
@@ -703,20 +730,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // CSSカウンターリセットを確実に設定
-        const section = document.querySelector('.content-section');
-        if (section) {
-            // カウンターリセットを強制的に再適用
-            section.style.counterReset = 'publication';
-            section.setAttribute('data-counter-reset', 'true');
-        }
-        
+        updatePublicationNumbers();
+
         // 論文アイテムの番号を保護（スタイルは変更しない）
         const publicationItems = document.querySelectorAll('.publication-item');
-        publicationItems.forEach((item, index) => {
-            // データ属性のみ設定（表示用ではなく、管理用）
-            item.setAttribute('data-publication-number', (index + 1).toString().padStart(2, '0'));
-            
+        publicationItems.forEach(item => {
             // ::before要素と::after要素のスタイルを保護
             // CSSで!importantを使用しているため、JavaScriptからの変更は無効になる
             item.setAttribute('data-before-protected', 'true');
@@ -734,15 +752,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // カウンターリセットを再適用
-        section.style.counterReset = 'publication';
-        
-        // 論文アイテムが追加・削除された場合の番号更新（データ属性のみ）
-        const publicationItems = document.querySelectorAll('.publication-item');
-        publicationItems.forEach((item, index) => {
-            item.setAttribute('data-publication-number', (index + 1).toString().padStart(2, '0'));
-            // スタイルは変更しない
-        });
+        updatePublicationNumbers();
     };
     
     // 初期化時に実行
@@ -797,3 +807,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 追加のデバッグコード（モバイルメニュー用）
     console.log('Main.js loaded successfully');
+});

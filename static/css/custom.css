@@ -938,7 +938,7 @@ h2::after {
 
 /* 論文番号のスタイルを完全に保護 */
 .publication-item::after {
-  content: counter(publication, decimal-leading-zero) !important;
+  content: attr(data-publication-number) !important;
   position: absolute !important;
   right: 1.5rem !important;
   top: 50% !important; /* 垂直中央に配置 */
@@ -991,7 +991,7 @@ h2::after {
   max-height: none !important;
   /* すべてのプロパティを固定 */
   all: initial !important;
-  content: counter(publication, decimal-leading-zero) !important;
+  content: attr(data-publication-number) !important;
   position: absolute !important;
   right: 1.5rem !important;
   top: 50% !important;
@@ -1015,7 +1015,7 @@ h2::after {
   color: rgba(200, 149, 107, 0.2) !important; /* ホバー時は少し濃く */
   transform: translateY(-50%) !important; /* 位置を維持 */
   /* その他のプロパティは変更しない */
-  content: counter(publication, decimal-leading-zero) !important;
+  content: attr(data-publication-number) !important;
   position: absolute !important;
   right: 1.5rem !important;
   top: 50% !important;
@@ -1112,6 +1112,18 @@ h2::after {
 
 .publication-year {
   display: none; /* 年情報は論文情報に含まれているため非表示 */
+}
+
+.publication-year-visible {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-light);
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.2rem 0.6rem;
+  background: rgba(156,175,136,0.1);
+  border-radius: 15px;
 }
 
 .publication-doi {
