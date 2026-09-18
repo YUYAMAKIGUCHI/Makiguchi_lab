@@ -197,3 +197,18 @@
 .view-button {
   display: none !important;
 }
+
+/* 書籍の表紙は切り抜かず、全体を表示する */
+.news-thumbnail-home img[src$="2026-09-18-fish-behavior-book-retouched.png"],
+#newsContainer.news-grid .news-tile-image img[src$="2026-09-18-fish-behavior-book-retouched.png"],
+#newsContainer.news-list-view .news-tile-image img[src$="2026-09-18-fish-behavior-book-retouched.png"],
+.article-thumbnail img[src$="2026-09-18-fish-behavior-book-retouched.png"] {
+  object-fit: contain !important;
+  object-position: center !important;
+  transform: none !important;
+  background-color: #f7f4ee;
+}
+
+.article-thumbnail img[src$="2026-09-18-fish-behavior-book-retouched.png"] {
+  max-height: min(65vh, 520px);
+}
